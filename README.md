@@ -11,6 +11,7 @@ Jeden raz na projekt zainstalować wszystkie zalezności.
 ```shell
 npm ci
 ```
+Próba-03
 (instalacja wszystkiego, co potrzebne)
 żeby localhost działał w terminalu PowerShell wpisać, oprócz 'npm ci' dodatkowo 'npm run dev', aby przeszedł w tryb pracy, dopiero wtedy będzie działał local host.
 
