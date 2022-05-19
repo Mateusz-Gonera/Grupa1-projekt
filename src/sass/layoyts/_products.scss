@@ -1,0 +1,39 @@
+.products {
+    padding-top: 121px;
+    padding-bottom: 98px;
+  
+    @media screen and(min-width: 768px) {
+      padding-top: 122px;
+      padding-bottom: 112px;
+    }
+  
+    @media screen and(min-width: 1280px) {
+      padding-top: 126px;
+      padding-bottom: 119px;
+    }
+  }
+
+.products__span{
+    margin-bottom: 15px ;
+
+    font-family:$mainFont;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.16;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $accentColor;
+    
+    @media screen and(min-width: 768px) {
+        font-size: 26px;
+        line-height: 1.15;
+        text-align: center;
+      }
+    
+      @media screen and(min-width: 1280px) {
+       font-size: 30px;
+       line-height: 1.13;
+       text-align: center;
+      }
+}
