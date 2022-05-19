@@ -17,6 +17,7 @@ ul,
 ol {
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 p {
@@ -45,12 +46,14 @@ img {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding: 0 34px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+    padding: 0 115px;
   }
 }
 /*# sourceMappingURL=main.css.map */
