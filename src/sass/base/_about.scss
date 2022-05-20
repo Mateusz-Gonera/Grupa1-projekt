@@ -1,11 +1,15 @@
-.about {
+.about .container {
   background-color: $backgroundColor;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding-top: 125px;
+  align-items: center;
+  // flex-direction: column;
 }
 .undertitle {
-    position: absolute;
-    font-family: $secondaryColor;
+
+    font-family: $secondaryFont;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -13,12 +17,17 @@
     text-align: center;
     text-transform: uppercase;
     color: $accentColor;
+    margin-bottom: 15px;
+
+
 }
 
 .sectiontitle {
-    position: absolute;
+
+
+    margin-bottom: 26px;
     max-width: 200px;
-    font-family: $secondaryColor;
+    font-family: $secondaryFont;
     font-style: normal;
     font-weight: 400;
     font-size: 34px;
@@ -29,7 +38,37 @@
 }
 
 .title_picture {
-    position: absolute;
     width: 280px;
     height: 279px;
+
+}
+
+.paragraphs_main {
+
+  max-width: 220px;
+}
+
+.paragraphs_main:not(:last-child) {
+  margin-bottom:47px;
+}
+.paragraphs {
+  justify-content: center;
+  font-family: $mainFont;
+  max-width: 220px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  color: $secondaryColor;
+
+
+}
+
+.paragraphs_main--second {
+  color:$descriptionColor;
+}
+
+.about {
+  margin-top: 17px;
+  
 }
