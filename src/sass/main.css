@@ -70,6 +70,9 @@ img {
 
 .about {
   background-color: #FFF5F6;
+}
+
+.about .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -77,11 +80,24 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 125px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  background-image: url("../images/mleko_mobile.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 760px;
 }
 
 .undertitle {
-  position: absolute;
-  font-family: #000000;
+  font-family: "Titan One", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -89,12 +105,19 @@ img {
   text-align: center;
   text-transform: uppercase;
   color: #FFA5BA;
+  margin-bottom: 15px;
+}
+
+.about_content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .sectiontitle {
-  position: absolute;
+  margin-bottom: 26px;
   max-width: 200px;
-  font-family: #000000;
+  font-family: "Titan One", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 34px;
@@ -105,8 +128,128 @@ img {
 }
 
 .title_picture {
-  position: absolute;
   width: 280px;
   height: 279px;
+}
+
+.paragraphs_main {
+  max-width: 220px;
+  max-height: 155px;
+}
+
+.paragraphs_main:not(:last-child) {
+  margin-bottom: 47px;
+}
+
+.paragraphs {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "DM Sans", sans-serif;
+  max-width: 220px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  color: #000000;
+}
+
+.paragraphs_main--second {
+  color: #907E82;
+}
+
+.about_btn {
+  margin-top: 17px;
+}
+
+.svg {
+  width: 4.43px;
+  height: 8px;
+  margin-left: 13.62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+
+.about .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 176px;
+  height: 44px;
+  background: #FFFFFF;
+  border-radius: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .about .container {
+    padding-top: 130px;
+    -webkit-box-pack: baseline;
+        -ms-flex-pack: baseline;
+            justify-content: baseline;
+    background-image: none;
+  }
+  .undertitle {
+    font-size: 26px;
+    line-height: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+  .sectiontitle {
+    margin-bottom: 50px;
+    max-width: 100%;
+    max-height: 55px;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.04em;
+  }
+  .title_picture {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .title_picture {
+    width: 340px;
+    height: 339px;
+    margin-right: 17px;
+  }
+  .paragraphs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24.64px;
+    width: 340px;
+  }
+  .about_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 115px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
