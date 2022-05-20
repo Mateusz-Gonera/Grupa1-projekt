@@ -132,11 +132,6 @@ img {
   height: 279px;
 }
 
-.paragraphs_main {
-  max-width: 220px;
-  max-height: 155px;
-}
-
 .paragraphs_main:not(:last-child) {
   margin-bottom: 47px;
 }
@@ -144,12 +139,13 @@ img {
 .paragraphs {
   margin-left: 50px;
   font-family: "DM Sans", sans-serif;
-  max-width: 220px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 162%;
   color: #000000;
+  width: 220px;
+  height: 79px;
 }
 
 .paragraphs_main--second {
