@@ -1,0 +1,50 @@
+
+.mobile-menu {
+    background-color: $mobile-menu-bg;
+    height: 502px;
+}
+
+.mobile-menu-list {
+    list-style: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.302;
+    padding-bottom: 50px;
+
+    &__item {
+        border-bottom: 1px solid $mobile-menu-border;
+        padding: 13px 0px 13px 21px;
+    }
+
+    &__item:first-child {
+        border-top: 1px solid $mobile-menu-border;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: $primaryColor;
+
+        &:hover,
+        &:focus {
+            color: $mobile-menu-hover;
+        }
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mobile-menu {
+        background-color: $mobile-menu-bg;
+        height: 1020px;
+    }
+
+    .mobile-menu-list {
+
+        &__item {
+            padding: 13px 0px 13px 24px;
+        }
+    }
+
+}
+
+

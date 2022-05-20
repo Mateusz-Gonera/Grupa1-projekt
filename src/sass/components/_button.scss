@@ -7,4 +7,24 @@
       border-radius: 22px;
       border-style: none;
       cursor: pointer;
+
+      &__mobile {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 209px;
+            height: 44px;
+            margin-top: 60px;
+            margin-bottom: 19px;
+      }
+
+      &_icon-close {
+            fill: $primaryColor;
+      }
+
+      &_icon-buy-now {
+            padding-left: 16px;
+            fill: $mobile-menu-hover;
+      }
+
 }
