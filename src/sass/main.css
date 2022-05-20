@@ -67,4 +67,29 @@ img {
   border-style: none;
   cursor: pointer;
 }
+
+.undertitle {
+  position: absolute;
+  font-family: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFA5BA;
+}
+
+.sectiontitle {
+  position: absolute;
+  max-width: 200px;
+  font-family: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
 /*# sourceMappingURL=main.css.map */
