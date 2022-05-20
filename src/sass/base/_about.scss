@@ -1,16 +1,18 @@
+.about {
+  background-color: $backgroundColor;
+  display: flex;
+  flex-direction: column;
+}
 .undertitle {
-  position: absolute;
-  
-  
-  font-family: $secondaryColor;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  text-transform: uppercase;
-  
-  color: $accentColor;
+    position: absolute;
+    font-family: $secondaryColor;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $accentColor;
 }
 
 .sectiontitle {
@@ -24,4 +26,10 @@
     text-align: center;
     letter-spacing: 0.04em;
     text-transform: uppercase;
+}
+
+.title_picture {
+    position: absolute;
+    width: 280px;
+    height: 279px;
 }
