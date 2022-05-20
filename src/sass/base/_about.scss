@@ -7,9 +7,8 @@
   align-items: center;
   background-image: url("../images/mleko_mobile.png");
   background-size: contain;
-background-repeat: no-repeat;
-
-  // flex-direction: column;
+  background-repeat: no-repeat;
+  background-position-y: 700px;
 }
 .undertitle {
 
@@ -50,6 +49,7 @@ background-repeat: no-repeat;
 .paragraphs_main {
 
   max-width: 220px;
+  max-height: 155px;
 }
 
 .paragraphs_main:not(:last-child) {
@@ -72,12 +72,31 @@ background-repeat: no-repeat;
   color:$descriptionColor;
 }
 
-.about {
+.about_btn {
   margin-top: 17px;
 
 }
 .background_pic {
   position: sticky;
   width: 100%;
-  padding-top: 786px;
+  padding-top: 766px;
+}
+
+.svg {
+  width: 4.43px;
+  height: 8px;
+  margin-left: 13.62px;
+  display:flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.about .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 176px;
+  height: 44px;
+  background: $primaryColor;
+  border-radius: 22px;
 }
