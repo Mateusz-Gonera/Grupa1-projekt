@@ -2,8 +2,16 @@
   <div class="container">
   <title class="undertitle">tradition and love</title>
   <h1 class="sectiontitle">how it’s made?</h1>
-  <div class="title_picture"> <img src="url(./src/images/krowa_mobile.png)" alt="cow"> </div>
-  <ul class="paragraphs list">
+  <div>
+    <picture class="title_picture">
+      <source media="(min-width:1200px)" srcset="src/images/krowa_desktop.png 1x, src/images/krowa@2x_desktop.png 2x">
+      <source media="(min-width:768px)" srcset="src/images/krowa_tablet.png 1x, src/images/krowa@2x_tablet.png 2x">
+      <source srcset=" src/images/krowa@2x_mobile.png 2x">
+
+    <img src="src/images/krowa_desktop.png" alt="krowa"/>
+    </picture>
+    </div>
+     <ul class="paragraphs list">
 
     <li class="paragraphs_main">Fusce ut velit laoreet, tempus arcu eu, molestie tortor.
       Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.</li>
