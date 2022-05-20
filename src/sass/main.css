@@ -189,6 +189,17 @@ img {
   border-radius: 22px;
 }
 
+.button .about_btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 176px;
+  height: 44px;
+}
+
 @media screen and (min-width: 768px) {
   .about .container {
     padding-top: 130px;
@@ -255,19 +266,15 @@ img {
     background: #FFFFFF;
     border-radius: 22px;
     margin-top: 62px;
-    margin-left: 310px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .about .container {
-    padding-top: 125px;
-  }
   .container {
     background-image: url("../images/mleko_desktop.png");
     background-size: contain;
     background-repeat: no-repeat;
-    background-position-y: 500px;
+    background-position-y: 342px;
   }
   .undertitle {
     font-size: 30px;
@@ -287,10 +294,10 @@ img {
   .title_picture {
     width: 516px;
     height: 516px;
-    margin-left: 74px;
+    margin-right: 74px;
   }
   .paragraphs_main {
-    max-width: 463px;
+    max-width: 100%;
   }
   .paragraphs_main:not(:last-child) {
     margin-bottom: 35px;
@@ -302,8 +309,13 @@ img {
     line-height: 176%;
     letter-spacing: 0.04em;
   }
+  .button,
   .about_btn {
     margin-top: 45px;
+    text-align: center;
+    -webkit-box-pack: left;
+        -ms-flex-pack: left;
+            justify-content: left;
   }
 }
 /*# sourceMappingURL=main.css.map */
