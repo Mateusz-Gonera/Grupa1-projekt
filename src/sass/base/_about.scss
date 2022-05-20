@@ -5,6 +5,10 @@
   justify-content: center;
   padding-top: 125px;
   align-items: center;
+  background-image: url("../images/mleko_mobile.png");
+  background-size: contain;
+background-repeat: no-repeat;
+
   // flex-direction: column;
 }
 .undertitle {
@@ -60,7 +64,6 @@
   font-size: 12px;
   line-height: 162%;
   color: $secondaryColor;
-  background-image: url("../images/mleko_mobile.png");
 
 
 }
