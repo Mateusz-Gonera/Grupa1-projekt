@@ -5,11 +5,16 @@
   justify-content: center;
   padding-top: 125px;
   align-items: center;
+
+}
+
+.container {
   background-image: url("../images/mleko_mobile.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-y: 700px;
+  background-position-y: 760px;
 }
+
 .undertitle {
 
     font-family: $secondaryFont;
