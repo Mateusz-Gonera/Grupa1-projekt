@@ -60,6 +60,7 @@
   font-size: 12px;
   line-height: 162%;
   color: $secondaryColor;
+  background-image: url("../images/mleko_mobile.png");
 
 
 }
@@ -70,5 +71,10 @@
 
 .about {
   margin-top: 17px;
-  
+
+}
+.background_pic {
+  position: sticky;
+  width: 100%;
+  padding-top: 786px;
 }
