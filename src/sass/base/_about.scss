@@ -59,11 +59,11 @@
 
 }
 
-.paragraphs_main {
+// .paragraphs_main {
 
-  max-width: 220px;
-  max-height: 155px;
-}
+//   max-width: 220px;
+//   max-height: 155px;
+// }
 
 .paragraphs_main:not(:last-child) {
   margin-bottom:47px;
@@ -71,12 +71,14 @@
 .paragraphs {
   margin-left:50px;
   font-family: $mainFont;
-  max-width: 220px;
+  // max-width: 220px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 162%;
   color: $secondaryColor;
+  width: 220px;
+height: 79px;
 }
 
 .paragraphs_main--second {
@@ -154,6 +156,7 @@
     font-size: 14px;
     line-height: 24.64px;
     margin:0;
+    
 
   }
 
@@ -165,6 +168,7 @@
 
   .about_content {
     display: flex;
+
   }
 
   .about_btn {
