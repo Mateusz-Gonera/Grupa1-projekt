@@ -7,7 +7,7 @@
         width: 80px;
         height: 16px;
         border-radius: 4px;
-        color: white;
+        color: $primaryColor;
         font-weight: 500;
         font-size: 12px;
         line-height: 1.833;
@@ -28,7 +28,7 @@
                 content: "";
                 width: 179px;
                 height: 1px;
-                background-color: #E1E1E1;
+                background-color:$borderColor;
                 display: block;
                 margin-bottom: 25px;
 }
@@ -40,7 +40,7 @@
         font-size: 12px;
         line-height: 1.833;
         letter-spacing: 0.04em;
-        color: #000000;
+        color: $secondaryColor;
 }
 .text
 {
@@ -48,7 +48,7 @@
         font-size: 12px;
         line-height: 1.833;
         letter-spacing: 0.04em;
-        color: #907E82;
+        color: $descriptionColor;
         margin-bottom: 25px;
 }
 
@@ -59,7 +59,7 @@
     font-size: 12px;
     line-height: 1.833;
     letter-spacing: 0.04em;
-    color: #000000;
+    color: $secondaryColor;
     font-weight: 500;
 }
 .opening-hours
@@ -67,7 +67,7 @@
         font-size: 12px;
         line-height: 1.833;
         letter-spacing: 0.04em;
-        color: #907E82;
+        color: $descriptionColor;
         margin-bottom: 25px;
 }
 .opening-weekend
@@ -75,7 +75,7 @@
         font-size: 12px;
         line-height: 1.833;
         letter-spacing: 0.04em;
-        color: #000000;
+        color:$secondaryColor;
         font-weight: 500;
 }
 
@@ -85,7 +85,7 @@
         font-size: 12px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #907E82;
+        color: $descriptionColor;
         text-decoration: none;
 }
 .e-mail
@@ -94,7 +94,7 @@
         font-size: 12px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color: #907E82;
+        color: $descriptionColor;
         padding-bottom: 43px;
         text-decoration: none;
 }
