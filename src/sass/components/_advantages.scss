@@ -2,6 +2,10 @@
   background-color: $backgroundColor;
 }
 
+.advantages__first-heading {
+  display: none;
+}
+
 .advantages_list {
   padding-top:39px;
   margin-left:20px;
@@ -130,9 +134,5 @@
   font-size: 16px;
   line-height: 176%;
   letter-spacing: 0.02em;
-
 }
-
-
-
 }
