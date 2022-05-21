@@ -86,6 +86,7 @@
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #907E82;
+        text-decoration: none;
 }
 .e-mail
 {
@@ -94,5 +95,11 @@
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: #907E82;
+        padding-bottom: 43px;
+        text-decoration: none;
+}
+
+.last-child
+{
         padding-bottom: 43px;
 }
