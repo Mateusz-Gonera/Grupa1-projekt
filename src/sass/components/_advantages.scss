@@ -10,26 +10,16 @@
   display: none;
 }
 
-.advantages__list {
-
-}
-
 .advantages__item--cow {
-  width: 33px;
-  height: 50px;
   margin-bottom:16px;
 }
 
 .advantages__item--fruit {
-  width: 50px;
-  height: 50px;
   margin-bottom:16px;
 
 }
 
 .advantages__item--heart {
-  width: 44px;
-  height: 50px;
   margin-bottom:16px;
 }
 
@@ -48,7 +38,7 @@
   text-transform: uppercase;
 }
 
-.description {
+.advantages__description {
   width: 230px;
   height: 36px;
   font-style: normal;
@@ -69,12 +59,9 @@
 
   .advantages__list {
     display: flex;
-    padding-top:66px;
-    margin-left:36px;
-    margin-right: 76px;
   }
- .advantages__group {
 
+ .advantages__group {
    display:block;
  }
 
@@ -95,7 +82,7 @@
   line-height: 55px;
 }
 
-.description {
+.advantages__description {
   width: 180px;
   height: 67px;
   font-size: 14px;
@@ -106,12 +93,10 @@
 @media screen and (min-width:1280px) {
   .advantages__list {
     display: flex;
-    padding-top:-24px;
-    margin-left:115px;
 
   }
- .advantages__group {
 
+ .advantages__group {
    display:block;
  }
 
@@ -131,7 +116,7 @@
   margin-bottom: 15px;
 }
 
-.description {
+.advantages__description {
   width: 330px;
   height: 52px;
   font-size: 16px;
