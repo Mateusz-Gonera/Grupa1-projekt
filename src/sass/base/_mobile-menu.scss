@@ -1,7 +1,12 @@
 
 .mobile-menu {
     background-color: $mobileMenuBg;
-    height: 502px;
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .mobile-menu-list {
@@ -34,8 +39,7 @@
 
 @media screen and (min-width: 768px) {
     .mobile-menu {
-        background-color: $mobileMenuBg;
-        height: 1020px;
+        width: 250px;
     }
 
     .mobile-menu-list {

@@ -59,7 +59,13 @@ img {
 
 .mobile-menu {
   background-color: #E17992;
-  height: 502px;
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .mobile-menu-list {
@@ -90,8 +96,7 @@ img {
 
 @media screen and (min-width: 768px) {
   .mobile-menu {
-    background-color: #E17992;
-    height: 1020px;
+    width: 250px;
   }
   .mobile-menu-list__item {
     padding: 13px 0px 13px 24px;
@@ -119,8 +124,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 209px;
-  height: 44px;
   margin-top: 60px;
   margin-bottom: 19px;
 }
@@ -129,8 +132,14 @@ img {
   fill: #FFFFFF;
 }
 
+.button_name {
+  width: 91px;
+  height: 44px;
+  padding: 14px 50px 14px 20px;
+}
+
 .button_icon-buy-now {
-  padding-left: 16px;
+  padding-right: 48px;
   fill: #D41443;
 }
 /*# sourceMappingURL=main.css.map */

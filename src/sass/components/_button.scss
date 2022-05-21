@@ -12,8 +12,6 @@
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 209px;
-            height: 44px;
             margin-top: 60px;
             margin-bottom: 19px;
       }
@@ -22,8 +20,14 @@
             fill: $primaryColor;
       }
 
+      &_name {
+            width: 91px;
+            height: 44px;
+            padding: 14px 50px 14px 20px;
+      }
+
       &_icon-buy-now {
-            padding-left: 16px;
+            padding-right: 48px;
             fill: $mobileMenuHover;
       }
 
