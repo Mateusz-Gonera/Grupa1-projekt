@@ -57,7 +57,55 @@ img {
   }
 }
 
-.cards-list__first {
+.cards-list {
   list-style-type: none;
+}
+
+.cards-list-first {
+  background-color: pink;
+  padding-top: 43px;
+}
+
+.cards-list-first-list__title {
+  background-color: #F0D1A5;
+  width: 80px;
+  height: 16px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.833;
+  letter-spacing: 0.04em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+}
+
+.cards-list-first-list__item {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.city {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.833;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.833;
+  letter-spacing: 0.04em;
+  color: #907E82;
 }
 /*# sourceMappingURL=main.css.map */

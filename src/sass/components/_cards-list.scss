@@ -1,9 +1,12 @@
 .cards-list
 {
+list-style-type: none;
 
+}
 
-    &__first
-    {
-        list-style-type: none;
-    }
+.cards-list-first
+{
+background-color: pink;
+padding-top: 43px;
+
 }
