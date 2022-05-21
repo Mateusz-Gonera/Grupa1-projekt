@@ -1,6 +1,6 @@
 
 .mobile-menu {
-    background-color: $mobile-menu-bg;
+    background-color: $mobileMenuBg;
     height: 502px;
 }
 
@@ -12,12 +12,12 @@
     padding-bottom: 50px;
 
     &__item {
-        border-bottom: 1px solid $mobile-menu-border;
+        border-bottom: 1px solid $mobileMenuBorder;
         padding: 13px 0px 13px 21px;
     }
 
     &__item:first-child {
-        border-top: 1px solid $mobile-menu-border;
+        border-top: 1px solid $mobileMenuBorder;
     }
 
     &__link {
@@ -26,7 +26,7 @@
 
         &:hover,
         &:focus {
-            color: $mobile-menu-hover;
+            color: $mobileMenuHover;
         }
         
     }
