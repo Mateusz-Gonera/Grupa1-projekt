@@ -57,14 +57,7 @@ img {
   }
 }
 
-.button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.313;
-  text-align: center;
-  color: #D41443;
-  border-radius: 22px;
-  border-style: none;
-  cursor: pointer;
+.cards-list__first {
+  list-style-type: none;
 }
 /*# sourceMappingURL=main.css.map */
