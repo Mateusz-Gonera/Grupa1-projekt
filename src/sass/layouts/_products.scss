@@ -4,16 +4,20 @@ ul{
 .products {
     padding-top: 121px;
     padding-bottom: 98px;
+}
     @media screen and(min-width: 768px) {
+      .products{
       padding-top: 122px;
       padding-bottom: 112px;
+      }
     }
     @media screen and(min-width: 1280px) {
+      .products{
       padding-top: 126px;
       padding-bottom: 119px;
     }
   }
-.products__span{
+.products__paragraph{
     margin-bottom: 15px;
     font-family: $secondaryFont;
     font-weight: 400;
@@ -22,17 +26,21 @@ ul{
     text-align: center;
     text-transform: uppercase;
     color: $accentColor;
+}
     @media screen and(min-width: 768px) {
+      .products__paragraph{
       font-size: 26px;
       line-height: 1.15;
       text-align: center;
+      }
     }
     @media screen and(min-width: 1280px) {
+      .products__paragraph{
       font-size: 30px;
       line-height: 1.13;
       text-align: center;
+      }
     }
-}
 .products__heading{
     margin-bottom: 157px ;
     font-family:$secondaryFont ;
@@ -43,62 +51,80 @@ ul{
     text-align: center;
     text-transform: uppercase;
     color:$mainTextColor;
+    }
     @media screen and(min-width: 768px) {
+      .products__heading{
         margin-bottom: 167px;
         font-size: 48px;
         line-height: 1.14;
         text-align: center;
       }
+      }
       @media screen and(min-width: 1280px) {
+        .products__heading{
         margin-bottom: 176px;
         font-size: 58px;
         line-height: 1.13;
         text-align: center;
+        }
       }
-}
-.products__about{
+
   @media screen and (min-width: 768px) {
+    .products__about{
     display: flex;
     flex-wrap: wrap;
     margin-left: -10px;
     margin-righ: -10px;
+    }
   }
   @media screen and (min-width: 1280px) {
+    .products__about{
     display: flex;
     flex-wrap: wrap;
     margin-left: -12px;
     margin-righ: -12px;
+    }
   }
-}
+
 .products__list {
     margin-bottom: 0;
     border-radius: 24px;
-    width: 280px;
+    width: 280px;}
+
     @media screen and (max-width: 479px) {
+      .products__list{
       text-align: center;
       max-width: 280px;
       height: 485px;
       margin: 0 auto;
+      }
     }
     @media screen and (min-width: 480px) {
+      .products__list{
       text-align: center;
       max-width: 280px;
       height: 485px;
       margin: 0 auto;
+      }
     }
     @media screen and (max-width: 767px) {
+      .products__list{
       &:not(:last-child) {
         margin-bottom: 150px;
       }
     }
+    }
     @media screen and(min-width: 768px) {
+      .products__list{
       flex-basis: calc((100% - 3 * 20px) / 3);
       margin-left: 10px;
       margin-right: 10px;
       max-width: 220px;
       height: 485px;
     }
+    }
     @media screen and(min-width: 1280px) {
+      .products__list{
       flex-basis: calc((100% - 3 * 24px) / 3);
       margin-left: 12px;
       margin-right: 12px;
@@ -106,57 +132,88 @@ ul{
       height: 525px;
     }
   }
+  
   .products__list-ice {
     background:$headerColor;
+  }
     @media screen and (min-width: 480px) {
+      .products__list-ice{
           padding-top: 161px;
       }
+    }
       @media screen and (max-width: 479px) {
+        .products__list-ice{
         padding-top: 161px;
     }
+  }
       @media screen and (min-width: 768px) {
+        .products__list-ice{
          padding-top: 152px;
       }
+    }
       @media screen and (min-width: 767px) {
+        .products__list-ice{
         padding-top: 152px;
       }
+    }
       @media screen and (min-width: 1280px) {
+        .products__list-ice{
          padding-top: 163px;
         }
 }
   .products__list-coffe {
     background:#F0D1A5;
+  }
     @media screen and (min-width: 480px) {
+      .products__list-coffe{
         padding-top: 161px;
     }
+  }
     @media screen and (max-width: 479px) {
+      .products__list-coffe{
       padding-top: 161px;
   }
+}
     @media screen and (min-width: 768px) {
+      .products__list-coffe{
        padding-top: 152px;
     }
+  }
     @media screen and (min-width: 767px) {
+      .products__list-coffe{
       padding-top: 152px;
     }
+  }
     @media screen and (min-width: 1280px) {
+      .products__list-coffe{
        padding-top: 163px;
       }
   }
   .products__list-milk {
     background: #C2E297;
+  }
     @media screen and (min-width: 480px) {
+      .products__list-milk{
         padding-top: 161px;
     }
+  }
     @media screen and (max-width: 479px) {
+      .products__list-milk{
       padding-top: 161px;
   }
+}
     @media screen and (min-width: 768px) {
+      .products__list-milk{
        padding-top: 152px;
     }
+  }
     @media screen and (min-width: 767px) {
+      .products__list-milk{
       padding-top: 152px;
     }
+  }
     @media screen and (min-width: 1280px) {
+      .products__list-milk{
        padding-top: 163px;
       }
   }
@@ -172,11 +229,15 @@ ul{
     padding-right: 52px;
     width: 100%;
     color: $primaryColor;
+}
     @media screen and(min-width: 768px) {
+      .products__list-tittle{
       padding-left: 22px;
       padding-right: 22px;
     }
+  }
     @media screen and(min-width: 1280px) {
+      .products__list-tittle{
       padding-left: 60px;
       padding-right: 60px;
       margin-top: 38px;
@@ -197,12 +258,16 @@ ul{
     padding-right: 40px;
     padding-bottom: 30px;
     margin-top: 30px;
+ }
     @media screen and(min-width: 768px) {
+      .products__list-text{
       padding-left: 11px;
       padding-right: 11px;
       padding-bottom: 40px;
     }
+  }
     @media screen and(min-width: 1280px) {
+      .products__list-text{
       padding-left: 44px;
       padding-right: 44px;
       padding-bottom: 62px;
@@ -210,19 +275,29 @@ ul{
       font-size: 16px;
       line-height: 1.75;
     }
+  }
     @media screen and (min-width: 480px) {
+      .products__list-text{
         padding-top: 66px;
     }
+  }
     @media screen and (max-width: 479px) {
+      .products__list-text{
       padding-top: 66px;
   }
+}
     @media screen and (min-width: 768px) {
+      .products__list-text{
        padding-top: 66px;
     }
+  }
     @media screen and (min-width: 767px) {
+      .products__list-text{
       padding-top: 66px;
     }
+  }
     @media screen and (min-width: 1280px) {
+      .products__list-text{
        padding-top: 70px;
       }
 }
