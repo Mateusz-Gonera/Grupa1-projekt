@@ -1,4 +1,8 @@
-.container {
+.advantages .container {
+  padding-bottom: 97px;
+}
+
+.advantages {
   background-color: $backgroundColor;
 }
 
@@ -6,32 +10,30 @@
   display: none;
 }
 
-.advantages_list {
-  padding-top:39px;
-  margin-left:20px;
+.advantages__list {
 
 }
 
-.advantages_item--cow {
+.advantages__item--cow {
   width: 33px;
   height: 50px;
   margin-bottom:16px;
 }
 
-.advantages_item--fruit {
+.advantages__item--fruit {
   width: 50px;
   height: 50px;
   margin-bottom:16px;
 
 }
 
-.advantages_item--heart {
+.advantages__item--heart {
   width: 44px;
   height: 50px;
   margin-bottom:16px;
 }
 
-.advantages_paragraph {
+.advantages__paragraph {
   width: 98px;
   height: 56px;
 }
@@ -56,30 +58,34 @@
   color: $secondaryColor;
 }
 
-.advantages_group:not(:last-child) {
+.advantages__group:not(:last-child) {
   margin-bottom: 38px;
 }
 
 @media screen and (min-width:768px) {
-  .advantages_list {
+  .advantages .container {
+    padding-bottom: 140px;
+  }
+
+  .advantages__list {
     display: flex;
     padding-top:66px;
     margin-left:36px;
     margin-right: 76px;
   }
- .advantages_group {
+ .advantages__group {
 
    display:block;
  }
 
-.advantages_item--cow,
-.advantages_item--fruit,
-.advantages_item--heart {
+.advantages__item--cow,
+.advantages__item--fruit,
+.advantages__item--heart {
   margin-bottom:36px;
 
 }
 
-// .advantages_paragraph {
+// .advantages__paragraph {
 //   width: 98px;
 //   height: 56px;
 // }
@@ -94,32 +100,29 @@
   height: 67px;
   font-size: 14px;
   line-height: 174%;
-
+}
 }
 
-
-}
-
-@media screen and (min-width:1200px) {
-  .advantages_list {
+@media screen and (min-width:1280px) {
+  .advantages__list {
     display: flex;
     padding-top:-24px;
     margin-left:115px;
 
   }
- .advantages_group {
+ .advantages__group {
 
    display:block;
  }
 
-.advantages_item--cow,
-.advantages_item--fruit,
-.advantages_item--heart {
+.advantages__item--cow,
+.advantages__item--fruit,
+.advantages__item--heart {
   margin-bottom:40px;
 
 }
 
-// .advantages_paragraph {
+// .advantages__paragraph {
 //   margin-bottom: 15px;
 
 .number {
