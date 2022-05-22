@@ -162,7 +162,9 @@ img {
     display: -ms-flexbox;
     display: flex;
     padding-bottom: 91px;
-    background-color: #000;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .footer__left-side {
     display: -webkit-box;
@@ -172,8 +174,7 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-left: 36px;
-    background-color: #780;
+    margin-right: 92px;
   }
   .footer__right-side {
     display: -webkit-box;
@@ -183,8 +184,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-right: 36px;
-    background-color: #193;
   }
   .footer__text-style_01, .footer__text-style_02 {
     display: -webkit-box;
@@ -196,7 +195,6 @@ img {
     padding: 0px;
   }
   .footer__text-style_01 {
-    background-color: #193;
     font-size: 26px;
     padding-bottom: 16px;
     letter-spacing: 0.04em;
@@ -231,7 +229,6 @@ img {
   }
   .footer__list {
     padding: 0px;
-    background-color: #f58;
   }
   .footer__list :not(:last-child) {
     margin-right: 30px;
@@ -246,7 +243,6 @@ img {
     padding-bottom: 98px;
   }
   .footer__left-side {
-    width: 55%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -254,10 +250,9 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-left: 114px;
+    margin-right: 259px;
   }
   .footer__right-side {
-    width: 45%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -265,7 +260,6 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding-right: 116px;
     background-color: #000;
   }
   .footer__text-style_01, .footer__text-style_02 {
@@ -306,9 +300,6 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 9px 0px 10px 0px;
-  }
-  .footer__list {
-    background-color: #f58;
   }
   .footer__list :not(:last-child) {
     margin-right: 25px;

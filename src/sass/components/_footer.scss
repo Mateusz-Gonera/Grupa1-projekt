@@ -93,22 +93,18 @@
         &__container {
             display: flex;
             padding-bottom: 91px;
-            
-            background-color: #000;
+            justify-content: center;
         }
         
         &__left-side {
             display: flex;
             flex-direction: column;
-            padding-left: 36px;
-            background-color: #780;
+            margin-right:92px;
         }
     
         &__right-side {
             display: flex;
             flex-direction: column;
-            padding-right: 36px;
-            background-color: #193;
         }
 
         &__text-style {
@@ -121,7 +117,6 @@
             }
 
             &_01 {
-                background-color: #193;
                 font-size: 26px;
                 padding-bottom: 16px;
                 letter-spacing: 0.04em;
@@ -156,7 +151,6 @@
 
         &__list {
             padding: 0px;
-            background-color: #f58;
             :not(:last-child) {
                 margin-right: 30px;
             }
@@ -174,18 +168,14 @@
         }
 
         &__left-side {
-            width: 55%;
             display: flex;
             flex-direction: column;
-            padding-left: 114px;
-            
+            margin-right: 259px;
         }
 
         &__right-side {
-            width: 45%;
             display: flex;
             flex-direction: column;
-            padding-right: 116px;
             background-color: #000;
         }
 
@@ -230,7 +220,6 @@
         }
 
         &__list {
-            background-color: #f58;
             :not(:last-child) {
                 margin-right: 25px;
             }
