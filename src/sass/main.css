@@ -1,19 +1,25 @@
 .contacts {
-  background-color: #FFF5F6;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(96%, #FFF5F6), color-stop(4%, #FFFFFF));
+  background-image: linear-gradient(to top, #FFF5F6 96%, #FFFFFF 4%);
   height: 1912px;
-}
-
-@media screen and (min-width: 1200px) {
-  .contacts {
-    background-color: #FFF5F6;
-    height: 1022px;
-  }
 }
 
 @media screen and (min-width: 768px) {
   .contacts {
-    background-color: #FFF5F6;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(95%, #FFF5F6), color-stop(5%, #FFFFFF));
+    background-image: linear-gradient(to top, #FFF5F6 95%, #FFFFFF 5%);
     height: 1103px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contacts {
+    background-image: url(../images/sectionbg2.png), -webkit-gradient(linear, left bottom, left top, color-stop(95%, #FFF5F6), color-stop(5%, #FFFFFF));
+    background-image: url(../images/sectionbg2.png), linear-gradient(to top, #FFF5F6 95%, #FFFFFF 5%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1022px;
   }
 }
 
