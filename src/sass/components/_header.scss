@@ -1,8 +1,23 @@
-@media screen and (min-width: 320px) and (max-width: 767px) { 
-  .header {
-      background-image: url();
+.header .container {
+      background-image: url(../images/Ellipse-mobile.png);
       background-repeat: no-repeat;
+      background-position-x: 36px;
+      background-position-y: 83px;
   }
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+  .header .container {
+    background-image: url(../images/Ellipse-mobile@2x.png);
+    background-repeat: no-repeat;
+    background-position-x: 36px;
+    background-position-y: 83px;
+    background-size: 346px;
+  }
+}
+
   
     .hero__button{
       color: $mainTextColor;
@@ -48,7 +63,7 @@
       justify-content: left;
     align-items: center;
     }
-}
+
 
 .header_menu{
   fill:$mainTextColor;
@@ -106,17 +121,7 @@
    
     
     .header__ellipse {    
-      //  max-width: 346px;    
-      //  margin-left: auto;
-      //  margin-left: 36px;
-      //  border-radius: 50%;
-      //  position: absolute;
-      //  left: 54%;
-      //  bottom: -21%;
-      //  -webkit-transform: translateY(-50%) translateX(-50%);
-      //          transform: translateY(-50%) translateX(-50%);
-      //  background-color: $accentColor;
-      //  z-index: 1;
+     
     }
     .header__ice-cream {
       width: 171px;
@@ -133,7 +138,31 @@
     }
     
   
-  @media screen and (min-width: 768px) and (max-width: 1279px) {
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+  .header .container {
+      background-image: url(../images/Ellipse-tablet.png);
+      background-repeat: no-repeat;
+      background-position-x: 307px;
+      background-position-y: 31px;
+    }
+
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px),
+  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px) {
+    .header .container {
+      background-image: url(../images/Ellipse-tablet@2x.png);
+      background-repeat: no-repeat;
+      background-position-x: 307px;
+      background-position-y: 31px;
+      background-size: 324px;
+    }
+  }
+
+
+
+
     .hero__button{
       color: $mainTextColor;
       // top: 328px;
@@ -159,7 +188,7 @@
       left: 70px;
       position: absolute;
       z-index: 4;
-      border-radius: 20px;
+      border-radius: 20;
       align-items: center;
       text-align: center;
       // background-color: $primaryColor;
@@ -167,8 +196,7 @@
       height: 24px;
       font-size: 8px;
       border: none;
-     
-  }
+    }
 
 
     .cafe,
@@ -322,17 +350,7 @@
     
    
     .header__ellipse {
-      width: 324px;
-      height: 322px;
-      margin: 31px 137px 46px 307px;
-      border-radius: 50%;
-      position: absolute;
-      left: 21%;
-      bottom: -51%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
-      background-color: $accentColor;
-      z-index: 1;
+    
     }
     .header__ice-cream {
       width: 143px;
@@ -382,7 +400,7 @@
       display: none;
     }
 
-    @media screen and (min-width: 768) and (max-width: 1280px) {
+    
 
       
     
@@ -397,7 +415,7 @@
       top: 66%;
       -webkit-transform: translateY(-50%) translateX(-50%);
               transform: translateY(-50%) translateX(-50%);
-    }}
+    }
     .header__milk-text {
       display: flex;
       width: 114px;
@@ -425,14 +443,37 @@
       -webkit-transform: translateY(-50%) translateX(-50%);
               transform: translateY(-50%) translateX(-50%);
     }
+    .header__arrow:hover,
+    .header__arrow:focus {
+      background-color: $mainTextColor;
+    }
+}
+
+
+  
+@media screen and (min-width: 1280px) {
+  .header .container {
+      background-image: url(../images/Ellipse-desktop.png);
+      background-repeat: no-repeat;
+      background-position-x: 475px;
+      background-position-y: 52px;
+    }
+  
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px),
+  screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+    .header .container {
+      background-image: url(../images/Ellipse-desktop@2x.png);
+      background-repeat: no-repeat;
+      background-position-x: 475px;
+      background-position-y: 52px;
+      background-size: 538px;
+    }
   }
 
-  .header__arrow:hover,
-  .header__arrow:focus {
-    background-color: $mainTextColor;
-  }
+
   
-  @media screen and (min-width: 1280px) {
     .header__logo {
     
       margin-top: 28px;
@@ -553,9 +594,7 @@
     .header__nav {
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between;
-      width: 541px;
-      height: 21px;
+              justify-content: space-between;   
      
       top: 50px;
       font-family: 'DM Sans';
@@ -649,17 +688,7 @@
     
    
     .header__ellipse {
-      width: 538px;
-      height: 538px;
-      margin: 52px 267px 75px 475px;
-      border-radius: 50%;
-      position: absolute;
-      left: 21%;
-      bottom: -42%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
-      background-color: $accentColor;
-      z-index: 1;
+
     }
     .header__ice-cream {
       width: 236px;
