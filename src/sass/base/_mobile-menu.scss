@@ -7,14 +7,14 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
 
-.mobile-menu-list {
-    list-style: none;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.302;
-    padding-bottom: 50px;
+    &__list {
+        list-style: none;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.302;
+        padding-bottom: 50px;
+    }
 
     &__item {
         border-bottom: 1px solid $mobileMenuBorder;
@@ -33,22 +33,17 @@
         &:focus {
             color: $mobileMenuHover;
         }
-        
     }
 }
 
 @media screen and (min-width: 768px) {
     .mobile-menu {
-        width: 250px;
-    }
-
-    .mobile-menu-list {
+        width: 254px;
 
         &__item {
             padding: 13px 0px 13px 24px;
         }
     }
-
 }
 
 
