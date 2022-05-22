@@ -129,6 +129,7 @@ img {
 .footer__list {
   list-style: none;
   text-decoration: none;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -139,7 +140,7 @@ img {
 }
 
 .footer__list :not(:last-child) {
-  margin-right: 28.24px;
+  margin-right: 28px;
 }
 
 .footer__list :hover, .footer__list :focus {
@@ -156,21 +157,61 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 91px;
+    background-color: #000;
+  }
+  .footer__left-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-left: 36px;
+    background-color: #780;
+  }
+  .footer__right-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-right: 36px;
+    background-color: #193;
+  }
+  .footer__text-style_01, .footer__text-style_02 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding: 0px;
+  }
   .footer__text-style_01 {
+    background-color: #193;
     font-size: 26px;
     padding-bottom: 16px;
     letter-spacing: 0.04em;
   }
   .footer__text-style_02 {
+    background-color: #853;
     font-size: 48px;
     letter-spacing: 0.06em;
-    padding-bottom: 91px;
   }
   .footer__text-style_03, .footer__text-style_04 {
     font-size: 14px;
   }
   .footer__text-style_03 {
-    padding: 46px 20px 43px 20px;
+    padding: 0px;
+    padding-top: 46px;
   }
   .footer__text-style_04 {
     display: -webkit-box;
@@ -189,15 +230,8 @@ img {
     padding: 29px 0px 18px 0px;
   }
   .footer__list {
-    list-style: none;
-    text-decoration: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    padding: 0px 20px;
+    padding: 0px;
+    background-color: #f58;
   }
   .footer__list :not(:last-child) {
     margin-right: 30px;
@@ -205,35 +239,60 @@ img {
 }
 
 @media screen and (min-width: 1280px) {
-  .footer {
-    display: block;
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 98px;
   }
   .footer__left-side {
+    width: 55%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-left: 114px;
+  }
+  .footer__right-side {
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-right: 116px;
+    background-color: #000;
+  }
+  .footer__text-style_01, .footer__text-style_02 {
+    display: inline;
+    padding: 0px;
   }
   .footer__text-style_01 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    font-size: 34px;
-    padding-bottom: 16px;
+    font-size: 30px;
+    padding-bottom: 15px;
     letter-spacing: 0.04em;
   }
   .footer__text-style_02 {
-    font-size: 66px;
+    font-size: 58px;
     letter-spacing: 0.06em;
-    padding-bottom: 97px;
+  }
+  .footer__text-style_03 {
+    padding: 0px;
+    padding-top: 50px;
+    background-color: #fff;
   }
   .footer__text-style_03, .footer__text-style_04 {
     font-size: 16px;
     letter-spacing: 0.02em;
-  }
-  .footer__text-style_03 {
-    padding: 46px 20px 43px 20px;
   }
   .footer__text-style_04 {
     display: -webkit-box;
@@ -249,18 +308,10 @@ img {
     padding: 9px 0px 10px 0px;
   }
   .footer__list {
-    list-style: none;
-    text-decoration: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: end;
-    padding: 0px 20px;
+    background-color: #f58;
   }
   .footer__list :not(:last-child) {
-    margin-right: 30px;
+    margin-right: 25px;
   }
 }
 /*# sourceMappingURL=main.css.map */

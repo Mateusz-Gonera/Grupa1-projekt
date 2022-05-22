@@ -63,12 +63,13 @@
     &__list {
         list-style: none;
         text-decoration: none;
+        text-align: center;
         display: flex;
         justify-content: end;
         padding: 0px 20px;
 
         :not(:last-child) {
-            margin-right: 28.24px;
+            margin-right: 28px;
         }
 
         :hover, :focus {
@@ -88,17 +89,48 @@
 
 @media screen and (min-width: 768px) {
     .footer {
+
+        &__container {
+            display: flex;
+            padding-bottom: 91px;
+            
+            background-color: #000;
+        }
+        
+        &__left-side {
+            display: flex;
+            flex-direction: column;
+            padding-left: 36px;
+            background-color: #780;
+        }
+    
+        &__right-side {
+            display: flex;
+            flex-direction: column;
+            padding-right: 36px;
+            background-color: #193;
+        }
+
         &__text-style {
+
+            &_01,
+            &_02 {
+                display: flex;
+                align-items: baseline;
+                padding: 0px;
+            }
+
             &_01 {
+                background-color: #193;
                 font-size: 26px;
                 padding-bottom: 16px;
                 letter-spacing: 0.04em;
             }
     
             &_02 {
+                background-color: #853;
                 font-size: 48px;
                 letter-spacing: 0.06em;
-                padding-bottom: 91px;
             }
 
             &_03,
@@ -107,7 +139,8 @@
             }
 
             &_03 {
-                padding: 46px 20px 43px 20px;
+                padding: 0px;
+                padding-top: 46px;
             }
 
             &_04 {
@@ -122,39 +155,64 @@
         }
 
         &__list {
-            list-style: none;
-            text-decoration: none;
-            display: flex;
-            justify-content: end;
-            padding: 0px 20px;
-
+            padding: 0px;
+            background-color: #f58;
             :not(:last-child) {
                 margin-right: 30px;
             }
         }
+
     }
 }
 
 @media screen and (min-width: 1280px) {
     .footer {
-        display: block;
+
+        &__container {
+            display: flex;
+            padding-bottom: 98px;
+        }
 
         &__left-side {
+            width: 55%;
+            display: flex;
             flex-direction: column;
+            padding-left: 114px;
+            
+        }
+
+        &__right-side {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            padding-right: 116px;
+            background-color: #000;
         }
 
         &__text-style {
+            
+            &_01, &_02 {
+                display: inline;
+                padding: 0px;
+            }
+
             &_01 {
                 flex-direction: row;
-                font-size: 34px;
-                padding-bottom: 16px;
+                font-size: 30px;
+                padding-bottom: 15px;
                 letter-spacing: 0.04em;
             }
 
             &_02 {
-                font-size: 66px;
+                font-size: 58px;
                 letter-spacing: 0.06em;
-                padding-bottom: 97px;
+            }
+
+
+            &_03 {
+                padding: 0px;
+                padding-top: 50px;
+                background-color: #fff;
             }
 
             &_03,
@@ -163,28 +221,18 @@
                 letter-spacing: 0.02em;
             }
 
-            &_03 {
-                padding: 46px 20px 43px 20px;
-            }
-
             &_04 {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
-
                 padding: 9px 0px 10px 0px;
             }
         }
 
         &__list {
-            list-style: none;
-            text-decoration: none;
-            display: flex;
-            justify-content: end;
-            padding: 0px 20px;
-
+            background-color: #f58;
             :not(:last-child) {
-                margin-right: 30px;
+                margin-right: 25px;
             }
         }
     }
