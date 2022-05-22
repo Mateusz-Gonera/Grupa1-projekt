@@ -30,6 +30,13 @@
     text-align: center;
     padding-left: 17px;
 }
+.btns-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
  @media screen and (min-width: 768px) {
 .btns-container
 {
