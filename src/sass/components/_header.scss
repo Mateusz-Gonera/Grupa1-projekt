@@ -4,7 +4,7 @@
   
     .hero__button{
       color: $mainTextColor;
-     
+      background-color: $primaryColor;
       position: absolute;
       z-index: 4;
      
@@ -37,7 +37,7 @@
       height: 24px;
       font-size: 8px;
       border: none;
-
+      background-color: $primaryColor;
     }
 
 
@@ -140,7 +140,7 @@
       // margin-top: 40%;
       position: absolute;
       z-index: 4;
-     
+      background-color: $primaryColor;
       
       border-radius: 20px;
       align-items: center;
@@ -382,6 +382,8 @@
     }
 
     @media screen and (min-width: 768) and (max-width: 1280px) {
+
+      
     
     .header__bottom-items {
       display: flex;
@@ -430,6 +432,11 @@
   }
   
   @media screen and (min-width: 1280px) {
+    .header__logo {
+    
+      margin-top: 28px;
+      margin-left: 46px;
+    }
     .hero__button{
       color: $mainTextColor;
       font-weight: 400;
@@ -437,7 +444,7 @@
       z-index: 4;
       min-width: 102px;
       min-height: 40px;
-      
+      background-color: $primaryColor;
       border-radius: 20px;
       align-items: center;
       text-align: center;
@@ -464,7 +471,7 @@
       height: 24px;
       font-size: 16px;
       border: none;
-     
+      background-color: $primaryColor;
   }
 
 
@@ -760,8 +767,8 @@
   
   .header__logo {
     
-    margin-top: 28px;
-    margin-left: 46px;
+    // margin-top: 28px;
+    // margin-left: 46px;
     
     mix-blend-mode: multiply;
     cursor: pointer;
