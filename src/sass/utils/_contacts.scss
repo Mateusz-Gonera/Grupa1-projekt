@@ -1,5 +1,19 @@
 .contacts
 {
     background-color: $backgroundColor;
-    padding-bottom: 117px;
+    height: 1912px;
 }
+ @media screen and (min-width: 1200px)
+ {
+    .contacts {
+            background-color: $backgroundColor;
+            height: 1022px;
+        }
+ }
+
+  @media screen and (min-width: 768px) {
+      .contacts {
+          background-color: $backgroundColor;
+          height: 1103px;
+      }
+  }
