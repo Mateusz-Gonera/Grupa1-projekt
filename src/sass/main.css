@@ -73,6 +73,8 @@ img {
   height: 1639px;
   background-image: url(../images/mleko_mobile.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 50%;
 }
 
 .undertitle {
@@ -119,7 +121,7 @@ img {
           align-items: center;
 }
 
-.paragraphs_main:not(:last-child) {
+.paragraphs_main {
   margin-bottom: 47px;
 }
 
@@ -154,6 +156,7 @@ img {
 
 .paragraphs_main--second {
   color: #907E82;
+  margin-bottom: 15px;
 }
 
 .about_btn {

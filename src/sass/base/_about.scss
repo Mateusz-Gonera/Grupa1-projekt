@@ -3,6 +3,8 @@
   height: 1639px;
   background-image: url(../images/mleko_mobile.png);
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 50%;
 }
 
 .undertitle {
@@ -53,7 +55,7 @@
 //   max-height: 155px;
 // }
 
-.paragraphs_main:not(:last-child) {
+.paragraphs_main{
   margin-bottom:47px;
 }
 .paragraphs {
@@ -78,12 +80,14 @@
 }
 .paragraphs_main--second {
   color:$descriptionColor;
+  margin-bottom: 15px;
 }
 
 .about_btn {
   margin-top: 17px;
 
 }
+
 
 
 .svg {
