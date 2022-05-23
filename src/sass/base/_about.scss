@@ -6,7 +6,14 @@
   background-size: contain;
   background-position-y: 50%;
 }
-
+@media screen and (min-width:768px) {
+.about {
+    background-color: $backgroundColor;
+    height: 1639px;
+    background-image:none;
+ 
+  }
+}
 .undertitle {
 
     font-family: $secondaryFont;
@@ -80,7 +87,7 @@
 }
 .paragraphs_main--second {
   color:$descriptionColor;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .about_btn {
@@ -116,12 +123,11 @@
 }
 
 @media screen and (min-width: 768px) {
-  .about .container {
-    padding-top: 130px;
-    background-image: none;
-
+  .content-box {
+      display: flex;
+      flex-direction: row;
   }
-
+}
   .undertitle {
     font-size: 26px;
     line-height: 30px;
@@ -156,14 +162,22 @@
     line-height: 24.64px;
     margin:0;
     
-
   }
+@media screen and(min-width:768px) {
+  .paragraphs {
+      justify-content: center;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24.64px;
+      margin-left: 15px;
+  
+    }
+}
 
-
-.paragraphs_main {
-    margin:0;
-
-  }
+.photos
+{
+  display: flex;
+}
 
   .about_content {
     display: flex;
@@ -182,7 +196,7 @@
 
   }
 
-}
+
 
 @media screen and (min-width: 1280px) {
 
