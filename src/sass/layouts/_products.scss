@@ -90,29 +90,24 @@
     width: 280px;
   }
 
-    @media screen and (max-width: 479px) {
       .products__list{
       text-align: center;
       max-width: 280px;
       height: 485px;
       margin: 0 auto;
       }
-    }
-    @media screen and (min-width: 480px) {
       .products__list{
       text-align: center;
       max-width: 280px;
       height: 485px;
       margin: 0 auto;
       }
-    }
-    @media screen and (max-width: 767px) {
+
       .products__list{
       &:not(:last-child) {
         margin-bottom: 150px;
       }
     }
-  }
     @media screen and(min-width: 768px) {
       .products__list{
       flex-basis: calc((100% - 3 * 20px) / 3);
@@ -138,11 +133,9 @@
   .products__list--ice {
     background:$headerColor;
   }
-    @media screen and (min-width: 480px) {
       .products__list--ice{
           padding-top: 161px;
       }
-      @media screen and (max-width: 479px) {
         .products__list--ice{
         padding-top: 161px;
       }
@@ -161,16 +154,12 @@
         }
       }
     }
-  }
-}
   .products__list--coffe {
     background:#F0D1A5;
   }
-    @media screen and (min-width: 480px) {
       .products__list--coffe{
         padding-top: 161px;
     }
-    @media screen and (max-width: 479px) {
       .products__list--coffe{
       padding-top: 161px;
   }
@@ -189,17 +178,13 @@
         }
       }
     }
-  }
-}
   .products__list--milk {
     background: #C2E297;
   }
-    @media screen and (min-width: 480px) {
       .products__list--milk{
         padding-top: 161px;
     }
   
-    @media screen and (max-width: 479px) {
       .products__list--milk{
       padding-top: 161px;
   }
@@ -221,8 +206,7 @@
         }
       }
     }
-  }
-}
+
 .products__list--tittle{
     font-family: $secondaryFont;
     font-weight: 400;
@@ -283,12 +267,10 @@
     }
   }
 
-    @media screen and (min-width: 480px) {
       .products__list--text{
         padding-top: 66px;
     }
   
-    @media screen and (max-width: 479px) {
       .products__list--text{
       padding-top: 66px;
   }
@@ -310,5 +292,4 @@
   }
 }
 }
-}
-}
+
