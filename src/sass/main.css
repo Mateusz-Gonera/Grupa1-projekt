@@ -1,25 +1,25 @@
 .contacts {
   background-image: -webkit-gradient(linear, left bottom, left top, color-stop(96%, #FFF5F6), color-stop(4%, #FFFFFF));
   background-image: linear-gradient(to top, #FFF5F6 96%, #FFFFFF 4%);
-  height: 1912px;
+  height: 1586px;
 }
 
 @media screen and (min-width: 768px) {
   .contacts {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(95%, #FFF5F6), color-stop(5%, #FFFFFF));
-    background-image: linear-gradient(to top, #FFF5F6 95%, #FFFFFF 5%);
-    height: 1103px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(93%, #FFF5F6), color-stop(7%, #FFFFFF));
+    background-image: linear-gradient(to top, #FFF5F6 93%, #FFFFFF 7%);
+    height: 834px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .contacts {
-    background-image: url(../images/sectionbg2.png), -webkit-gradient(linear, left bottom, left top, color-stop(95%, #FFF5F6), color-stop(5%, #FFFFFF));
-    background-image: url(../images/sectionbg2.png), linear-gradient(to top, #FFF5F6 95%, #FFFFFF 5%);
-    background-position: center;
+    background-image: url(../images/sectionbg2.png), -webkit-gradient(linear, left bottom, left top, color-stop(99%, #FFF5F6), color-stop(1%, #FFFFFF));
+    background-image: url(../images/sectionbg2.png), linear-gradient(to top, #FFF5F6 99%, #FFFFFF 1%);
+    background-position-y: 102px;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 1022px;
+    height: 867px;
   }
 }
 
@@ -86,7 +86,7 @@ img {
   padding-bottom: 43px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .last-child {
     padding-bottom: 43px;
     display: -webkit-box;
@@ -187,7 +187,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .cards-list-first {
     padding-top: 43px;
     border-radius: 24px;
@@ -482,7 +482,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .cards-list-first-list__title {
     background-color: #F0D1A5;
     width: 80px;
@@ -628,10 +628,34 @@ img {
   background-repeat: no-repeat;
   background-position: center 51%;
   background-position-x: 85%;
+  cursor: pointer;
 }
 
 .franchise-btn {
   background-color: #FFFFFF;
+  border-radius: 22px;
+  border: 0;
+  color: #D41443;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background-image: url("../images/btn-icon-2.svg");
+  background-size: 5%;
+  background-repeat: no-repeat;
+  background-position: center 51%;
+  background-position-x: 85%;
+  cursor: pointer;
+}
+
+.franchise-btn:hover {
+  background-color: #ECEBEB;
   border-radius: 22px;
   border: 0;
   color: #D41443;
@@ -668,7 +692,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .text-btn {
     padding-left: 35px;
     padding-right: 54px;
@@ -693,7 +717,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .text-btn-franchise {
     padding-left: 39px;
     padding-right: 58px;
@@ -734,7 +758,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .btns-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -747,6 +771,9 @@ img {
         -ms-flex-direction: row;
             flex-direction: row;
     margin-top: 66px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -771,7 +798,7 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .location-btn {
     background-color: #D41443;
     border-radius: 22px;
@@ -787,7 +814,6 @@ img {
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    margin-bottom: 10px;
     margin-right: 15px;
   }
   .franchise-btn {
