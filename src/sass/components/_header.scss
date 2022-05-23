@@ -12,6 +12,7 @@ screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-w
 screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
 screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
   .header .container {
+    position: relative;
     background-image: url("../images/Ellipse-mobile@2x.png");
     background-repeat: no-repeat;
     background-position-x: 36px;
@@ -79,7 +80,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 }
     .header__logo {
       
-      margin-left: 20px;
+      // margin-left: 20px;
       margin-top: 6px;
     }
 
@@ -91,6 +92,8 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     .header__icon-cafe,
     .header__icon-trucks,
     .header__bottom-items,
+    .header__milk,
+    .header__arrow,
     .header__milk-text,
     .header__tasty,
     .header__btn--top,
@@ -109,7 +112,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       line-height: 1,15;
       margin-top: 137px;
       margin-bottom: 19px;
-      margin-left: 20px;
+      // margin-left: 20px;
     }
     .header__title-passion {
       font-size: 48px;
@@ -117,7 +120,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .header__buttons {
       margin-top: 262px;
-      margin-left: 20px;
+      // margin-left: 20px;
     }
    
     
@@ -148,6 +151,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   screen and (min-resolution: 192dpi) and (min-width: 768px) and (max-width: 1279px),
   screen and (min-resolution: 2dppx) and (min-width: 768px) and (max-width: 1279px) {
     .header .container {
+      position: relative;
       background-image: url("../images/Ellipse-tablet@2x.png");
       background-repeat: no-repeat;
       background-position-x: 307px;
@@ -200,12 +204,12 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     {
       display: flex;
       position: absolute;
-      right: 64px;
+      right: 74px;
     }
 
     .cafe{
       margin-bottom: 10px;
-      top:94px;
+      top:100px;
     }
 
     .cafe__number,
@@ -264,18 +268,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
 
 
-    .header__bottom-items{
-      display: flex;
-      width: 124px;
-      height: 126px;
-      margin-top: 19px;
-      margin-left: 34px;
-      position: absolute;
-      left: 8%;
-      top: 66%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
-    }
+    
 
     .header_menu{
       right: 28%;
@@ -359,12 +352,12 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       display: flex;
       width: 168px;
       height: 133px;
-      margin-right: 34px;
+      
       position: absolute;
-      left: 87%;
-      top: 78%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
+      bottom: 0%;
+      right: 14px;
+      // -webkit-transform: translateY(-50%) translateX(-50%);
+      //         transform: translateY(-50%) translateX(-50%);
       z-index: 1;
     }
     .header__icon-cafe {
@@ -394,17 +387,26 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
       
     
-    .header__bottom-items {
+    //  .header__bottom-items {
+    //    display: flex;
+    //    width: 124px;
+    //    height: 126px;
+    //    margin-top: 19px;
+    //    margin-left: 34px;
+    //    position: absolute;
+    //    left: 8%;
+    //    top: 66%;
+    //    -webkit-transform: translateY(-50%) translateX(-50%);
+    //            transform: translateY(-50%) translateX(-50%);
+    //  }
+
+    .header__milk {
       display: flex;
-      width: 124px;
-      height: 126px;
-      margin-top: 19px;
-      margin-left: 34px;
       position: absolute;
-      left: 8%;
-      top: 66%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
+      left: 34px;
+      bottom: 15px;
+      width: 124px;
+
     }
     .header__milk-text {
       display: flex;
@@ -417,21 +419,19 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       // margin-bottom: 59px;
       // margin-left: 154px;
       position: absolute;
-      left: 145%;
-      top: 54%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
+      bottom: 59px;
+    left: 184px;
+      
     }
     .header__arrow {
-      width: 18px;
-      height: 18px;
-      margin-bottom: 34px;
-      margin-left: 154px;
-      position: absolute;
-      right: -23%;
-      top: 87%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
+      margin-left: 150px;
+      /* position: absolute; */
+      /* left: 154px; */
+      /* top: 347px; */
+      /* z-index: 3; */
+      margin-top: 247px;
+      // -webkit-transform: translateY(-50%) translateX(-50%);
+      //         transform: translateY(-50%) translateX(-50%);
     }
     .header__arrow:hover,
     .header__arrow:focus {
@@ -456,6 +456,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   screen and (min-resolution: 192dpi) and (min-width: 1280px),
   screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     .header .container {
+      position: relative;
       background-image: url("../images/Ellipse-desktop@2x.png");
       background-repeat: no-repeat;
       background-position-x: 475px;
@@ -464,12 +465,34 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
   }
 
+  .header__milk {
+    display: flex;
+    position: absolute;
+    // left: 77px;
+    bottom: 15px;
+    width: 124px;
 
+  }
+  .header__milk-text {
+    display: flex;
+    width: 114px;
+    height: 48px;
+    font-family: 'DM Sans';
+    font-size: 8px;
+    line-height: 1,5;
+    color: $primaryColor;
+    // margin-bottom: 59px;
+    // margin-left: 154px;
+    position: absolute;
+    bottom: 59px;
+  left: 184px;
+    
+  }
   
     .header__logo {
     
       margin-top: 28px;
-      margin-left: 46px;
+      // margin-left: 46px;
     }
     .hero__button{
       color: $mainTextColor;
@@ -515,12 +538,12 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     {
       display: flex;
       position: absolute;
-      right: 97px;
+      right: 174px;
     }
 
     .cafe{
       
-      top:94px;
+      top:164px;
     }
 
     .cafe__number,
@@ -555,7 +578,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
     .trucks{
       
-      top:171px;
+      top:241px;
     }
     .trucks__text {
       color: $primaryColor;
@@ -588,7 +611,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
           -ms-flex-pack: justify;
               justify-content: space-between;   
      
-      top: 50px;
+              top: 45px;
       font-family: 'DM Sans';
       font-weight: 700;
       font-size: 16px;
@@ -604,10 +627,10 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
           -ms-flex-align: center;
               align-items: center;
       position: absolute;
-      right: 12%;
+      left: 355px;
       // top: 1%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
+      // -webkit-transform: translateY(-50%) translateX(-50%);
+      //         transform: translateY(-50%) translateX(-50%);
       z-index: 2;
     }
     .header__link {
@@ -667,16 +690,16 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       line-height: 1,312;
       margin-top: 84px;
       margin-bottom: 25px;
-      margin-left: 115px;
+      // margin-left: 115px;
     }
     .header__title-passion {
       font-size: 58px;
       line-height: 1,115;
     }
-    .header__buttons {
-      margin-top: 246px;
-      margin-left: 115px;
-    }
+    // .header__buttons {
+    //   margin-top: 246px;
+    //   margin-left: 115px;
+    // }
     
    
     .header__ellipse {
@@ -693,13 +716,11 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       display: flex;
       width: 293px;
       height: 242px;
-      margin-right: 109px;
+      
       position: absolute;
-      left: 87%;
-      top: 81%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
+      bottom: 0%;
       z-index: 1;
+      right: 54px;
     }
     .header__icon-cafe,
     .header__icon-trucks {
@@ -801,6 +822,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     text-transform: uppercase;
     color: $primaryColor;
     z-index: 3;
+    margin-left: 50px;
   }
   
   .header__title-passion {
@@ -808,6 +830,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   }
   
   .header__buttons {
+    margin-left: 50px;
     position: absolute;
     z-index: 3;
   }
