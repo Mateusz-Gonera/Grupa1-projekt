@@ -136,14 +136,24 @@
 
   
   .products__list--ice {
+    position: relative;
     background:$headerColor;
   }
-      .products__list--ice{
-          padding-top: 161px;
-      }
-        .products__list--ice{
-        padding-top: 161px;
-      }
+     
+     
+
+  .products__list--ice::before {
+        content: "";
+        display: inline-block;
+        width: 249px;
+        height: 252px;
+        margin-top: -150px;
+        margin-bottom: 22px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("../images/mobile/mobile-ice1x.png");
+  }
+
       @media screen and (min-width: 768px) {
         .products__list--ice{
          padding-top: 152px;
