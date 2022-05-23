@@ -32,15 +32,14 @@
 
       &_name {
             padding: 0px 30px 0px 50px;
+                        background-color: #000;
       }
 
       &_icon-bt-mark {
             padding-right: 50px;
             fill: $mobileMenuHover;
-            // bg do wywalenia po podłączeniu svg
-            
+            // bg do wywalenia po podłączeniu svg  
       }
-
 }
 
 @media screen and (min-width: 768px) {
