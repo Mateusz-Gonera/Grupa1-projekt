@@ -1,4 +1,6 @@
 .header .container {
+      position: relative;
+      height: 502px;
       background-image: url(../images/Ellipse-mobile.png);
       background-repeat: no-repeat;
       background-position-x: 36px;
@@ -59,7 +61,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
 
     .header__top {
-      min-width: 320px;
       justify-content: left;
     align-items: center;
     }
@@ -120,20 +121,13 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
    
     
-    .header__ellipse {    
-     
-    }
     .header__ice-cream {
       width: 171px;
-      // height: 413px;
-      // margin-top: 10px;
-      // margin-right: 94px;
-      margin-left: 81px;
       position: absolute;
-      left: 18%;
-      top: 53%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
+      left: 58.5px;
+      top: 46px;
+      // -webkit-transform: translateY(-50%) translateX(-50%);
+      //         transform: translateY(-50%) translateX(-50%);
       z-index: 2;
     }
     
@@ -141,6 +135,8 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 @media screen and (min-width: 768px) and (max-width: 1279px) {
 
   .header .container {
+      position: relative;
+      height: 399px;
       background-image: url(../images/Ellipse-tablet.png);
       background-repeat: no-repeat;
       background-position-x: 307px;
@@ -354,15 +350,9 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .header__ice-cream {
       width: 143px;
-      height: 312px;
-      margin-top: 32px;
-      margin-right: 110px;
-      margin-left: 71px;
       position: absolute;
-      left: 15%;
-      top: 46%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
+      left: 189px;
+      top: 31.5px;
       z-index: 2;
     }
     .header__tasty {
@@ -453,6 +443,8 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   
 @media screen and (min-width: 1280px) {
   .header .container {
+      position: relative;
+      height: 665px;
       background-image: url(../images/Ellipse-desktop.png);
       background-repeat: no-repeat;
       background-position-x: 475px;
@@ -692,15 +684,9 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .header__ice-cream {
       width: 236px;
-      height: 593px;
-      margin-top: 56px;
-      margin-right: 183px;
-      margin-left: 119px;
       position: absolute;
-      left: 15%;
-      top: 46%;
-      -webkit-transform: translateY(-50%) translateX(-50%);
-              transform: translateY(-50%) translateX(-50%);
+      left: 297px;
+      top: 54px;
       z-index: 2;
     }
     .header__tasty {
@@ -805,7 +791,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   }
   
   .header__bottom {
-    position: relative;
+    // position: relative;
   }
   
   .header__title {
