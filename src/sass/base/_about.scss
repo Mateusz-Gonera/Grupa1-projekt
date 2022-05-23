@@ -1,21 +1,8 @@
 .about {
   background-color: $backgroundColor;
-}
-
-.about .container {
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 125px;
-  align-items: center;
-}
-
-.container {
-  background-image: url("../images/mleko_mobile.png");
-  background-size: contain;
+  height: 1639px;
+  background-image: url(../images/mleko_mobile.png);
   background-repeat: no-repeat;
-  background-position-y: 751px;
 }
 
 .undertitle {
@@ -29,7 +16,7 @@
     text-transform: uppercase;
     color: $accentColor;
     margin-bottom: 15px;
-
+    padding-top: 125px;
 
 }
 
@@ -54,8 +41,9 @@
 }
 
 .title_picture {
-    width: 280px;
-    height: 279px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 
 }
 
@@ -77,10 +65,17 @@
   font-size: 12px;
   line-height: 162%;
   color: $secondaryColor;
-  width: 220px;
-height: 79px;
+  margin-top: 46px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
-
+.section-headings
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .paragraphs_main--second {
   color:$descriptionColor;
 }
