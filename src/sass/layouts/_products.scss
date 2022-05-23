@@ -88,6 +88,7 @@
     margin-bottom: 0px;
     border-radius: 24px;
     width: 280px;
+    position: relative;
   }
 
       .products__list{
@@ -136,22 +137,24 @@
 
   
   .products__list--ice {
-    position: relative;
     background:$headerColor;
+    position: relative;
   }
-     
-     
-
   .products__list--ice::before {
-        content: "";
-        display: inline-block;
-        width: 249px;
-        height: 252px;
-        margin-top: -150px;
-        margin-bottom: 22px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-image: url("../images/mobile/mobile-ice1x.png");
+    position: absolute;
+    width: 249px;
+    height: 252px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      content: url("../images/mobile/mobile-coffee1x.png");
+     @media screen and(min-width: 7680px) {
+       content: url("../images/tablet/tablet-ice1x.png");
+      @media screen and(min-width: 1280px) {
+        content: url("../images/desktop/desktop-ice1x.png");
+      }
+       
+     }
   }
 
       @media screen and (min-width: 768px) {
@@ -169,9 +172,40 @@
         }
       }
     }
-  .products__list--coffe {
-    background:#F0D1A5;
+    .products__list--coffe {
+      background:#F0D1A5;
+      position: relative;
+    }
+    .products__list--coffe::before{ 
+      position: absolute;
+      width: 249px;
+      height: 252px;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      content: url('../images/mobile/mobile-coffee1x.png');
+      @media  screen and(min-width: 768px) {
+      content: url("../images/tablet/tablet-coffee1x.png");
+      @media screen and(min-width:1280px){
+      content: url("../images/desktop/desktop-coffee1x.png");
+      }
+    }
+}
+.products__list--milk::before{
+  position: absolute;
+  width: 249px;
+  height: 252px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: url("../images/mobile/mobile-milk1x.png");
+  @media screen and(min-width: 768px) {
+  content: url("../images/tablet/tablet-milk1x.png");
   }
+  @media screen and(min-width: 1280px) {
+    content: url("../images/desktop/desktop-milk1x.png");
+  }
+}
       .products__list--coffe{
         padding-top: 161px;
     }
@@ -195,6 +229,7 @@
     }
   .products__list--milk {
     background: #C2E297;
+    position: relative;
   }
       .products__list--milk{
         padding-top: 161px;
