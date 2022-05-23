@@ -40,7 +40,7 @@
   }
 
     .products__heading{
-    margin-bottom: 157px ;
+    margin-bottom: 144px ;
     font-family:$secondaryFont ;
     font-style: normal;
     font-weight: 400;
@@ -52,14 +52,14 @@
     }
     @media screen and(min-width: 768px) {
       .products__heading{
-        margin-bottom: 167px;
+        margin-bottom: 150px;
         font-size: 48px;
         line-height: 1.14;
         text-align: center;
       }
       @media screen and(min-width: 1280px) {
         .products__heading{
-        margin-bottom: 176px;
+        margin-bottom: 259px;
         font-size: 58px;
         line-height: 1.13;
         text-align: center;
@@ -85,7 +85,7 @@
 }
 
 .products__list {
-    margin-bottom: 0;
+    margin-bottom: 0px;
     border-radius: 24px;
     width: 280px;
   }
@@ -115,6 +115,10 @@
       margin-right: 10px;
       max-width: 220px;
       height: 485px;
+
+      &:not(:last-child) {
+          margin-bottom: 0px;
+        }
     }
     @media screen and(min-width: 1280px) {
       .products__list{
@@ -122,8 +126,9 @@
       margin-left: 12px;
       margin-right: 12px;
       max-width: 330px;
-      height: 525px;
+      height: 525px;     
     }
+    
   }
 }
 
