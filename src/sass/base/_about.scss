@@ -41,7 +41,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 }
 
 .sectiontitle {
-    margin-bottom: 26px;
+    // margin-bottom: 26px;
     max-width: 200px;
     font-family: $secondaryFont;
     font-style: normal;
@@ -127,6 +127,8 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
     }
 
+
+
   .content-box {
       display: flex;
       flex-direction: row;
@@ -136,6 +138,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
   .paragraphs {
       // justify-content: center;
+margin-top:100px;
       font-weight: 500;
       font-size: 14px;
       line-height: 1.75;
@@ -149,10 +152,11 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
 
     .sectiontitle {
-      margin-bottom: 106px;
+      // margin-bottom: 106px;
       max-width: 431px;
       font-size: 48px;
       line-height: 55px;
+      margin:0;
 
     }
 
@@ -225,11 +229,12 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   // }
 
   .paragraphs {
-    margin:0;
+    margin-top:106px;
     max-width: 100%;
     font-size: 16px;
     line-height: 176%;
     letter-spacing: 0.04em;
+    margin-left:0px;
 
   }
 
