@@ -144,6 +144,7 @@ img {
   .number {
     font-size: 48px;
     line-height: 55px;
+    text-transform: none;
   }
   .advantages__description {
     width: 180px;
@@ -174,6 +175,7 @@ img {
     font-size: 58px;
     line-height: 66px;
     margin-bottom: 15px;
+    text-transform: none;
   }
   .advantages__description {
     width: 330px;
