@@ -19,6 +19,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   }
 }
 
+
 @media screen and (min-width:768px) {
 .about {
     background-color: $backgroundColor;
@@ -185,6 +186,21 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       margin-left: 15px;
   
     }
+
+        .undertitle {
+    
+          font-family: $secondaryFont;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 26px;
+          line-height: 1.154;
+          text-align: center;
+          text-transform: uppercase;
+          color: $accentColor;
+          margin-bottom: 15px;
+          padding-top: 125px;
+    
+        }
 }
 
 .photos
