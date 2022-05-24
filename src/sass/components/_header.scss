@@ -287,21 +287,24 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       display: none;
     }
    
-   
+        
     .header__btn--top {
+      font-family: 'DM Sans';
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 1.312;
+      text-align: center;
+      color: $mainTextColor;
       margin-right: 34px;
       width: 160px;
       right: 10%;
       // bottom: 87%;
       -webkit-transform: translateY(-50%) translateX(50%);
               transform: translateY(-50%) translateX(50%);
-      font-family: 'DM Sans';
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 1.312;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      align-items: center;
       position: absolute;
       -webkit-box-align: center;
           -ms-flex-align: center;
@@ -309,14 +312,25 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      text-align: center;
-      color: $mainTextColor;
       background-color: $primaryColor;
       border: none;
       border-radius: 22px;
       margin-top: 78px;
       cursor: pointer;
       height: 44px;
+
+      &::after {
+          content: "";
+          margin-left: 12px;
+          display: flex;
+          width: 8px;
+          height: 12px;
+          background-repeat: no-repeat;
+          background-size: 6px 9px;
+          background-position: center center;
+          background-position-y: 3px;
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='6' height='10' viewBox='0 0 6 10' fill='none' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath d='M1 1L5 5L1 9' stroke='%23D41443' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /%3E%3C/svg%3E");
+        }
     }
    
     .header__bottom {
@@ -436,10 +450,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       // -webkit-transform: translateY(-50%) translateX(-50%);
       //         transform: translateY(-50%) translateX(-50%);
     }
-    .header__arrow:hover,
-    .header__arrow:focus {
-      background-color: $mainTextColor;
-    }
+
 }
 
 
@@ -686,9 +697,14 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .header__btn--top:hover,
     .header__btn--top:focus {
-      color: #ffffff;
-      background-color: $mainTextColor;
+      background-color: #ECEBEB;
     }
+
+        // .header__btn--top:hover,
+        // .header__btn--top:focus .header__btn-paragraph {
+        //   color: #ffffff;
+        // }
+
     .header__bottom {
       min-height: 594px;
     }
@@ -858,6 +874,5 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   .header__btn--top:focus,
   .hero__button:focus,
   .hero__button2:focus {
-    color: #ffffff;
-    background-color: $mainTextColor;
+    background-color: #ECEBEB;
   }
