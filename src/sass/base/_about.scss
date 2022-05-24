@@ -1,11 +1,24 @@
 .about {
-  background-color: $backgroundColor;
   height: 999px;
   background-image: url("../images/mleko_mobile.png");
   background-repeat: no-repeat;
-  background-size: 100% 133px;
   background-position-y: 766px;
+  background-size: 100% 133px;
+  background-color: $backgroundColor;
 }
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (min-width: 320px) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px) {
+  .about {
+    background-image: url("../images/mleko@2x_mobile.png");
+    background-repeat: no-repeat;
+    background-position-y: 766px;
+    background-size: 100% 133px;
+  }
+}
+
 @media screen and (min-width:768px) {
 .about {
     background-color: $backgroundColor;
