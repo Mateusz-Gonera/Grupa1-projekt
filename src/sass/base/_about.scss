@@ -207,6 +207,7 @@ margin-top:100px;
       line-height: 66px;
       letter-spacing: 0.06em;
       max-width:540px;
+      margin-bottom: 106px;
 
 
   }
@@ -229,13 +230,16 @@ margin-top:100px;
   // }
 
   .paragraphs {
-    margin-top:106px;
     max-width: 100%;
     font-size: 16px;
     line-height: 176%;
     letter-spacing: 0.04em;
     margin-left:0px;
+    margin-top: 0px;
 
+  }
+  .photos {
+    margin-top: -51px;
   }
 
   .internal {
