@@ -1,7 +1,12 @@
 
 .footer {
     background-color: $backgroundColor;
-    text-decoration: none;    
+    text-decoration: none;
+    
+    &__icon {
+        width: 20px;
+        height: 20px;
+    }
 
     &__text-style {
 
@@ -73,18 +78,21 @@
             margin-right: 28px;
         }
 
-        :hover, :focus {
-            background-color: $mainTextColor;
-        }
+        
     }
 
-    &__item {
-        width: 34px;
-        height: 34px;
+    &__link {
+        display: flex;
+        padding: 8px;
         border-radius: 50%;
         background-color: $accentColorFooter;
         fill: $primaryColor;
         cursor: pointer;
+
+        &:hover,
+        &:focus {
+            background-color: $mainTextColor;
+        }
     }
 }
 
