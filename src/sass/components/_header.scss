@@ -679,6 +679,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      align-items: center;
       position: absolute;
       -webkit-box-align: center;
           -ms-flex-align: center;
@@ -694,7 +695,21 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       // margin-top: 38px;
       cursor: pointer;
       height: 44px;
-    }
+
+      &::after {
+          content: "";
+          margin-left: 12px;
+          display: flex;
+          width: 8px;
+          height: 12px;
+          background-repeat: no-repeat;
+          background-size: 6px 9px;
+          background-position: center center;
+          background-position-y: 2.5px;
+          background-image: url("data:image/svg+xml;charset=utf8,%3Csvg width='6' height='10' viewBox='0 0 6 10' fill='none' xmlns='http://www.w3.org/2000/svg' %3E%3Cpath d='M1 1L5 5L1 9' stroke='%23D41443' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' /%3E%3C/svg%3E");
+        }
+      }
+
     .header__btn--top:hover,
     .header__btn--top:focus {
       background-color: #ECEBEB;
