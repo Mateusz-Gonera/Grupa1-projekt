@@ -12,6 +12,7 @@
 
 .advantages__item--cow {
   margin-bottom:16px;
+
 }
 
 .advantages__item--fruit {
@@ -63,6 +64,10 @@
 
  .advantages__group {
    display:block;
+
+ }
+ .advantages__group:not(:last-child) {
+  margin-right: 60px;
  }
 
 .advantages__item--cow,
@@ -99,7 +104,9 @@
  .advantages__group {
    display:block;
  }
-
+ .advantages__group:not(:last-child) {
+  margin-right: 30px;
+ }
 .advantages__item--cow,
 .advantages__item--fruit,
 .advantages__item--heart {
