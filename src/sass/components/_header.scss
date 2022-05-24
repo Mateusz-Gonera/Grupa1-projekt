@@ -275,10 +275,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       right: 28%;
       top: 52px;
     }
-    .header__top {
-      min-width: 768px;
-      max-width: 1279px;
-    }
+   
     .header__logo {
       margin-left: 34px;
       margin-top: 37px;
@@ -416,10 +413,10 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     //  }
 
     .header__milk {
-      display: flex;
+      display: block;
       position: absolute;
-      left: 34px;
-      bottom: 15px;
+      left: 17px;
+      bottom: 14px;
       width: 124px;
 
     }
@@ -439,16 +436,12 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       
     }
     .header__arrow {
-      display: flex;
-      margin-left: 150px;
-      /* position: absolute; */
-      /* left: 154px; */
-      /* top: 347px; */
-      /* z-index: 3; */
-      margin-top: 125px;
-      margin-left: 75px;
-      // -webkit-transform: translateY(-50%) translateX(-50%);
-      //         transform: translateY(-50%) translateX(-50%);
+      display: block;
+      position: absolute;
+      width: 18px;
+      height: 18px;
+      top: 173.5px;
+      left: 77px;
     }
 
 }
@@ -480,12 +473,11 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   }
 
   .header__milk {
-    display: flex;
+    display: block;
     position: absolute;
-    // left: 77px;
-    bottom: 15px;
+    left: 38.5px;
+    top: 214.5px;
     width: 188px;
-    bottom: 45px;
   }
   .header__milk-text {
     display: flex;
@@ -619,7 +611,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
     .header__top {
       margin-top: 37px;
-      min-width: 1280px;
     }
     
     .header__nav {
@@ -740,9 +731,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     // }
     
    
-    .header__ellipse {
-
-    }
+  
     .header__ice-cream {
       width: 236px;
       position: absolute;
@@ -811,19 +800,12 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       
     }
     .header__arrow {
-      display: flex;
+      display: block;
       width: 26px;
-      height: 26px;
-      
+      height: 26px;      
       position: absolute;
-      margin-left: 93px;
-      
-      margin-top: 230px;
-  
-      // right: 100px;
-      // top: 90%;
-      // -webkit-transform: translateY(-50%) translateX(-50%);
-      //         transform: translateY(-50%) translateX(-50%);
+      top: 291.5px;
+      left: 147.5px;
     }
   }
   
