@@ -205,7 +205,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     {
       display: flex;
       position: absolute;
-      right: 74px;
+      right: 66px;
     }
 
     .cafe{
@@ -219,7 +219,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       font-family: $secondaryFont;
       font-size: 28px;
       color: $mainTextColor;
-
+      z-index: 2;
     }
     .cafe__text{
       color: $primaryColor;
@@ -231,7 +231,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .cafe__ellipse{
       position: absolute;
-      left: 30px;
+      left: 28px;
       background-color: $primaryColor;
       border-radius: 50%;
       transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -241,6 +241,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       z-index: 1;
       -webkit-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
+    top: 5px;
     }
 
     .trucks{
@@ -258,7 +259,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .trucks__ellipse{
       position: absolute;
-      left: 25px;
+      left: 23px;
       background-color: $primaryColor;
       border-radius: 50%;
       transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -337,7 +338,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       line-height: 1.590;
       margin-top: 15px;
       margin-bottom: 20px;
-      margin-left: 34px;
+      // margin-left: 34px;
     }
     .header__title-passion {
       font-size: 34px;
@@ -345,7 +346,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .header__buttons {
       margin-top: 135px;
-      margin-left: 34px;
+      // margin-left: 34px;
     }
     
    
@@ -431,7 +432,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       // margin-left: 154px;
       position: absolute;
       bottom: 59px;
-    left: 184px;
+      left: 154px;
       
     }
     .header__arrow {
@@ -513,7 +514,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       text-align: center;
       width: 61.2px;
       height: 24px;
-      font-size: 16px;
+      font-size: 14px;
       border: none;
       margin-right: 8px;
 
@@ -532,7 +533,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       min-height: 40px;
       width: 82.8px;
       height: 24px;
-      font-size: 16px;
+      font-size: 14px;
       border: none;
       background-color: $primaryColor;
   }
@@ -558,7 +559,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       font-family: $secondaryFont;
       font-size: 46px;
       color: $mainTextColor;
-
+      z-index: 2;
     }
     .cafe__text{
       color: $primaryColor;
@@ -570,16 +571,17 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .cafe__ellipse{
       position: absolute;
-      left: 45px;
+      left: 50px;
       background-color: $primaryColor;
       border-radius: 50%;
       transform: matrix(-1, 0, 0, 1, 0, 0);
-      width: 16px;
-      height: 16px;
+      width: 30px;
+      height: 30px;
       position: absolute;
       z-index: 1;
       -webkit-transform: translateY(-50%) translateX(-50%);
-    transform: translateY(-50%) translateX(-50%);
+      transform: translateY(-50%) translateX(-50%);
+      top: 4px;
     }
 
     .trucks{
@@ -597,12 +599,13 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .trucks__ellipse{
       position: absolute;
-      left: 40px;
+      left: 35px;
       background-color: $primaryColor;
       border-radius: 50%;
       transform: matrix(-1, 0, 0, 1, 0, 0);
-      width: 16px;
-      height: 16px;
+      width: 30px;
+      height: 30px;
+      top: -6px;
     }
 
 
@@ -718,16 +721,15 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       line-height: 1.312;
       margin-top: 84px;
       margin-bottom: 25px;
-      // margin-left: 115px;
+      margin-left: 50px;
     }
     .header__title-passion {
       font-size: 58px;
       line-height: 1.115;
     }
-    // .header__buttons {
-    //   margin-top: 246px;
-    //   margin-left: 115px;
-    // }
+     .header__buttons {
+      margin-left: 50px;
+     }
     
    
   
@@ -783,6 +785,12 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
               transform: translateY(-50%) translateX(-50%);
     }
 
+    .header__milk {
+    left: 58.5px;
+    width: 188px;
+    bottom: 25px;
+  }
+
     .header__milk-text {
       display: flex;
       width: 200px;
@@ -795,7 +803,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       // margin-left: 295px;
       position: absolute;
       left: 300px;
-      bottom: 140px;
+      bottom: 115px;
       
     }
     .header__arrow {
@@ -803,7 +811,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       width: 26px;
       height: 26px;      
       position: absolute;
-      top: 291.5px;
+      bottom:34px;
       left: 147.5px;
     }
   }
@@ -845,7 +853,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     text-transform: uppercase;
     color: $primaryColor;
     z-index: 3;
-    margin-left: 50px;
+    // margin-left: 50px;
   }
   
   .header__title-passion {
@@ -853,7 +861,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   }
   
   .header__buttons {
-    margin-left: 50px;
+    // margin-left: 50px;
     position: absolute;
     z-index: 3;
   }
@@ -870,5 +878,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   .header__btn--top:focus,
   .hero__button:focus,
   .hero__button2:focus {
-    background-color: #ECEBEB;
+    background-color: $mainTextColor;
+    color: $primaryColor;
   }
