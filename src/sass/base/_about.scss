@@ -93,10 +93,10 @@
   line-height: 1.67;
 
   &:not(:last-child) {
-    margin-bottom: 17px;}
+    margin-bottom: 17px;
+  }
 }
 .about_btn {
-  margin-top: 17px;
 
 }
 
@@ -256,7 +256,7 @@
 
   }
 
-  .button,
+
   .about_btn {
     margin-top: 45px;
     text-align: center;
@@ -264,8 +264,8 @@
   }
   .about
   {
-    height: 1211px;
-    background-image: url(../images/mleko_desktop.png);
+    height: 850px;
+    background-image: url("../images/mleko_desktop.png");
     background-repeat: no-repeat;
     background-position-y: 280px;
     
@@ -277,9 +277,9 @@
     screen and (min-resolution: 192dpi) and (min-width: 1280px),
     screen and (min-resolution: 2dppx) and (min-width: 1280px) {
       .about {
-        background-image: url(../images/mleko@2x_desktop.png);
+        background-image: url("../images/mleko@2x_desktop.png");
         background-repeat: no-repeat;
-        background-position-y:280px;
+        background-position-y: 280px;
         background-size: contain;
       }
     }
