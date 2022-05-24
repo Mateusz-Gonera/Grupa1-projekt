@@ -1,127 +1,170 @@
-.reviews {
-    padding-top: 60px;
-    padding-bottom: 65px;
+.customer-reviews {
+    padding-top: 40px;
+    padding-bottom: 43px;
+  
+    @media screen and (min-width: 768px) {
+      padding-top: 61px;
+      padding-bottom: 60px;
+    }
+  
+    @media screen and (min-width: 1280px) {
+      padding-top: 62px;
+      padding-bottom: 66px;
+    }
   }
   
-  .reviews__article {
-    margin-left: auto;
-    margin-right: auto;
-    @include mq('tablet', 'max') {
-      max-width: 450px;
-    }
-    @include mq('tablet') {
+  .customer__box {
+    position: relative;
+  }
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .image__thumb {
+    max-width: 85px;
+    border: none;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 29px;
+  }
+  
+  .customer__review {
+    padding-top: 71px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+    background-color: #fafafa;
+  
+    @media screen and(min-width:768px) {
       width: 620px;
     }
-    @include mq('desktop') {
+  
+    @media screen and(min-width:1280px) {
       width: 926px;
     }
   }
   
-  .reviews__item-img {
-    @include centered-content;
-    margin-bottom: 29px;
-    width: 100%;
-    @include mq('tablet') {
-      margin-bottom: 19px;
-    }
-    @include mq('desktop') {
-      margin-bottom: 15px;
-    }
-  }
-  .reviews__item-box {
+  .text__thumb {
     position: relative;
-    width: 100%;
-    background-color: #fafafa;
-    @include centered-content;
-    padding: 43px 50px;
-    margin-bottom: 30px;
-    @include mq('tablet') {
-      padding: 30px 38px;
-      margin-bottom: 42px;
+    width: 180px;
+    height: 217px;
+  
+    @media screen and(min-width:480px) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 330px;
+      height: 105px;
     }
-    @include mq('desktop') {
-      padding: 32px 55px;
-      margin-bottom: 34px;
+  
+    @media screen and(min-width:768px) {
+      margin-left: auto;
+      margin-right: auto;
+      width: 450px;
+      height: 90px;
     }
-    &::after {
-      content: '';
-      position: absolute;
-      left: 50px;
-      top: 32px;
-      z-index: 1;
-      width: 54px;
-      height: 40px;
+  
+    @media screen and(min-width:1280px) {
+      width: 800px;
+      height: 60px;
     }
   }
-  .reviews__item-bg-box {
-    padding: 0 10px;
-    @include mq('tablet') {
-      padding: 0 32px;
-    }
-    @include mq('desktop') {
-      padding: 0 36px;
-    }
-    background-image: repeating-linear-gradient(
-      to top,
-      #fafafa,
-      #fafafa 30px,
-      #e1e1e1 30px,
-      #e1e1e1 31px
-    );
-  }
-  .reviews__item {
-    position: relative;
-    z-index: 5;
-    @extend %customer-text;
+  
+  .customer__text {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    font-weight: 500;
     font-size: 12px;
     line-height: 2.55;
-    @include mq('tablet') {
+    color: $secondaryColor;
+    width: 180px;
+    padding-left: 23px;
+    padding-right: 23px;
+    z-index: 1;
+  
+    @media screen and(min-width:480px) {
+      width: 370px;
+      bottom: 10px;
+      left: -10px;
+  
       font-size: 14px;
       line-height: 2.16;
+  
+      letter-spacing: 0.04em;
     }
-    @include mq('desktop') {
+  
+    @media screen and(min-width:768px) {
+      width: 460px;
+      bottom: 25px;
+      left: -10px;
+    }
+  
+    @media screen and(min-width:1280px) {
+      width: 822px;
+      bottom: 25px;
+      left: -10px;
       font-size: 16px;
       line-height: 1.86;
     }
   }
-  .reviews__name {
-    position: relative;
-    @include centered-content;
-    @extend %customer-name;
+  
+  .customer__text::before {
+    content: '';
+    display: block;
+    width: 54px;
+    height: 40px;
+  
+    position: absolute;
+    top: -16px;
+    left: 10px;
+  
+    background-image: url('../images/customers-quotes.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    z-index: -1;
+  
+    @media screen and(min-width:768px) {
+      left: -15px;
+    }
+  
+    @media screen and(min-width:1280px) {
+      left: -20px;
+    }
+  }
+  
+  .after__text {
+    background-color:$primaryColor;
+    height: 100px;
+  }
+  
+  .customer__name {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.86;
-    @include mq('tablet') {
+  
+    @media screen and(min-width:768px) {
       font-size: 16px;
     }
-    @include mq('desktop') {
+  
+    @media screen and(min-width:1280px) {
       font-size: 20px;
     }
+  }
   
-    &::before {
-      content: '';
-      position: absolute;
-      left: 50%;
-      top: -15px;
-      transform: translateX(-50%);
-      width: 26px;
-      height: 6px;
-    //   background-image: url(../images/dots-red.svg);
-    }
-  }
-  .swiper-pagination {
-    bottom: -10px;
-  }
-  .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    margin-right: 18px;
-    margin-left: 18px;
-    background-color: yellow;
+  .customer__name::before {
+    content: '';
+    display: block;
+    height: 4px;
+    background-image: url('../images/customers-dots.svg');
+    background-position: center;
+    background-repeat: no-repeat;
   
-    cursor: pointer;
-  }
-  .swiper-button-next,
-  .swiper-button-prev {
-    color: $color__slider--active;
+    margin-bottom: 18px;
   }
