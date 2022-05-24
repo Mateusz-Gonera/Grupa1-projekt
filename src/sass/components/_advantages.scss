@@ -66,6 +66,11 @@
    display:block;
 
  }
+
+ .advantages__group:not(:last-child) {
+   margin-bottom: 0px;
+ }
+
  .advantages__group:not(:last-child) {
   margin-right: 60px;
  }
