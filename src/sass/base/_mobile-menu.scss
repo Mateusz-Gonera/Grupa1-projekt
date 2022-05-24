@@ -36,9 +36,7 @@
     }
 }
 
-.button {
-
-    &__mobile {
+.button__mobile {    
         display: flex;
         align-items: center;
         justify-content: center;
@@ -49,26 +47,25 @@
         height: 44px;
         background-color: $primaryColor;
 
-        :hover, 
-        :focus {
+        &:hover, 
+        &:focus {
             background-color: $buttonHover;
         }
     }
 
-    &_icon-bt-mark {
+    .button_icon-bt-mark {
         margin-top: 3px;
         margin-left: 25px;
         margin-right: 50px;
     }
 
-    &_icon-close {
+    .button_icon-close {
         position: absolute;
         right: 28px;
         top: 23px;
         cursor: pointer;
     }
 
-}
 
 @media screen and (min-width: 768px) {
     .mobile-menu {
