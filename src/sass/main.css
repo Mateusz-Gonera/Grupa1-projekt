@@ -306,13 +306,11 @@ img {
   margin-top: 62px;
 }
 
+.about_btn:hover {
+  background-color: #ECEBEB;
+}
+
 @media screen and (min-width: 1280px) {
-  .container {
-    background-image: url("../images/mleko_desktop.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-y: 342px;
-  }
   .undertitle {
     font-size: 30px;
     line-height: 34px;
@@ -353,6 +351,21 @@ img {
     -webkit-box-pack: left;
         -ms-flex-pack: left;
             justify-content: left;
+  }
+  .about {
+    height: 1211px;
+    background-image: url(../images/mleko_desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: 280px;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1280px), screen and (min-resolution: 192dpi) and (min-width: 1280px), screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+  .about {
+    background-image: url(../images/mleko@2x_desktop.png);
+    background-repeat: no-repeat;
+    background-position-y: 280px;
+    background-size: contain;
   }
 }
 /*# sourceMappingURL=main.css.map */
