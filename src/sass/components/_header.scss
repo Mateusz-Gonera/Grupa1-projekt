@@ -231,7 +231,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .cafe__ellipse{
       position: absolute;
-      left: 28px;
+      left: 32px;
       background-color: $primaryColor;
       border-radius: 50%;
       transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -259,12 +259,13 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .trucks__ellipse{
       position: absolute;
-      left: 23px;
+      left: 26px;
       background-color: $primaryColor;
       border-radius: 50%;
       transform: matrix(-1, 0, 0, 1, 0, 0);
       width: 16px;
       height: 16px;
+      top: -1px;
     }
 
 
@@ -571,7 +572,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .cafe__ellipse{
       position: absolute;
-      left: 50px;
+      left: 54px;
       background-color: $primaryColor;
       border-radius: 50%;
       transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -581,7 +582,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       z-index: 1;
       -webkit-transform: translateY(-50%) translateX(-50%);
       transform: translateY(-50%) translateX(-50%);
-      top: 4px;
+      top: 7px;
     }
 
     .trucks{
@@ -599,7 +600,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
     .trucks__ellipse{
       position: absolute;
-      left: 35px;
+      left: 43px;
       background-color: $primaryColor;
       border-radius: 50%;
       transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -866,6 +867,13 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     z-index: 3;
   }
   
+    .hero__button:hover,
+    .hero__button2:hover,
+    .hero__button:focus,
+    .hero__button2:focus {
+      background-color: $mainTextColor;
+      color: $primaryColor;
+    }
   
   
   
@@ -873,11 +881,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     text-decoration: none;
   }
   .header__btn--top:hover,
-  .hero__button:hover,
-  .hero__button2:hover,
-  .header__btn--top:focus,
-  .hero__button:focus,
-  .hero__button2:focus {
-    background-color: $mainTextColor;
-    color: $primaryColor;
+  .header__btn--top:focus {
+    background-color: #ECEBEB;
   }
