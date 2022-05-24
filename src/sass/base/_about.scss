@@ -19,7 +19,13 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   }
 }
 
-
+.section-headings
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 
 .undertitle {
     font-family: $secondaryFont;
@@ -32,11 +38,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     color: $accentColor;
     margin-bottom: 15px;
     padding-top: 125px;
-}
-
-.about_content {
-  justify-content: center;
-  display: flex;
 }
 
 .sectiontitle {
@@ -56,40 +57,35 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-bottom: 46px;
 
 }
 
 .paragraphs_main{
-  margin-bottom: 47px;
-  text-align: left;
+  margin-bottom: 35px;
 }
+.internal {
+  margin-bottom: 12px;
+}
+
 .paragraphs {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   font-family: $mainFont;
-  // max-width: 220px;
+  max-width: 220px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.67;
   color: $secondaryColor;
   margin-left: 30px;
-  margin-right: 30px;
+
 }
-.section-headings
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
+
 .paragraphs_main--second {
   color:$descriptionColor;
-  font-size: 12px;
-  line-height: 1.67;
-
 
 }
 
@@ -101,25 +97,6 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   align-items: center;
   justify-items: center;
 }
-
-
-  .sectiontitle {
-    margin-bottom: 26px;
-    max-width: 100%;
-    max-height: 55px;
-    font-size: 48px;
-    line-height: 55px;
-    letter-spacing: 0.04em;
-
-}
-.title_picture
- {
-  display: flex;
-  flex-direction:row;
-  width: 340px;
-    height: 339px;
-}
-
 
 .photos {
   display: flex;
@@ -134,7 +111,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   height: 44px;
   background: $primaryColor;
   border-radius: 22px;
-  margin-top: 17px;
+  margin-top: 35px;
 }
 
 .about_btn:hover {
@@ -147,27 +124,36 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       background-color: $backgroundColor;
       height: 786px;
       background-image: none;
-  
+
     }
 
   .content-box {
       display: flex;
       flex-direction: row;
+      width: 100%;
     }
-  
+
 
   .paragraphs {
-      justify-content: center;
+      // justify-content: center;
       font-weight: 500;
       font-size: 14px;
       line-height: 1.75;
-      margin-left: 15px;
-      margin-top: 50px;
-      margin-right: 0px;
+      max-width: 340px;
+      justify-content:flex-start;
+      // margin-left: 17px;
+
+      // margin-right: 0px;
     }
 
+
+
     .sectiontitle {
-      margin-bottom: 50px;
+      margin-bottom: 106px;
+      max-width: 431px;
+      font-size: 48px;
+      line-height: 55px;
+
     }
 
     .paragraphs_main--second {
@@ -178,7 +164,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
 
     .paragraphs_main {
-      margin-bottom: 23px;
+      margin-bottom: 35px;
     }
 
     .undertitle {
@@ -191,13 +177,13 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       text-align: center;
       text-transform: uppercase;
       color: $accentColor;
-      margin-bottom: 15px;
-      padding-top: 125px;
+      margin-bottom: 16px;
+      padding-top: 130px;
 
     }
 
     .about_btn{
-      margin-top: 62px;
+      margin-top: 45px;
     }
 }
 
@@ -211,14 +197,13 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     justify-content: flex;
   }
 
-
-
   .sectiontitle {
 
       font-size: 58px;
       line-height: 66px;
-
       letter-spacing: 0.06em;
+      max-width:540px;
+
 
   }
 
@@ -232,11 +217,12 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   .paragraphs_main {
     max-width: 100%;
 
+
   }
 
-  .paragraphs_main:not(:last-child) {
-    margin-bottom:35px;
-  }
+  // .paragraphs_main:not(:last-child) {
+  //   margin-bottom:35px;
+  // }
 
   .paragraphs {
     margin:0;
@@ -247,9 +233,11 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
   }
 
+  .internal {
+    margin-bottom: 28px; }
 
   .about_btn {
-    margin-top: 28px;
+    margin-top: 45px;
     text-align: center;
     margin-left: 0px;
   }
@@ -260,7 +248,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     background-repeat: no-repeat;
     background-position-y: 342px;
     background-size: 100% 534px;
-    
+
   }
 
 }
