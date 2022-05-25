@@ -205,9 +205,9 @@
 
   display: inline-flex;
   margin: 0 auto;
-  max-width: 75px;
-  transform: translate(-50%, -20%);
   align-items: center;
+  justify-content: center;
+  width: 100%;
   &_btn {
     display: inline-flex;
     width: 12px;
@@ -222,23 +222,25 @@
   }
   @media screen and(max-width:480px) {
     display: inline-flex;
-    transform: translate(-48%, -5%);
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
+    width: 100%;
   }
   @media screen and(min-width:768px) {
     display: inline-flex;
-  margin-left: 50%;
-  margin-top: 5%;
-  transform: translate(-50%, -5%);
   align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
   }
 
   @media screen and(min-width:1280px) {
     display: inline-flex;
-    margin-left: 32%;
-    transform: translate(-33%, 0);
     align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
   }
 }
 
