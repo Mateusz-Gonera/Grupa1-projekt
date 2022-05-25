@@ -3,7 +3,15 @@
 @import "./utils/contacts";
 @import "./base/commons";
 @import "./base/container";
+@import "./components/button";
+@import "./components/header";
+@import "./layouts/products";
+@import "./base/about";
+@import "./components/advantages";
+@import "./components/gallery";
 @import "./base/last-child";
 @import "./components/cards";
 @import "./components/cards-list-first-list";
 @import "./components/buttons-contacts";
+
+@import "./base/mobile-menu";
