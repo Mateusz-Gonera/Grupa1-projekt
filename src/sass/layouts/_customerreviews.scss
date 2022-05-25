@@ -44,12 +44,11 @@
   }
 
 }
+
 .unloaded{
   position: relative;
   transform: translateX(-100%) ;
 }
-
-
 
 .image__thumb {
   max-width: 85px;
@@ -77,8 +76,8 @@
   }
 
   @media screen and(min-width:1280px) {
-  width: 926px;
-   height: 138px;
+  min-width: 926px;
+   min-height: 138px;
     padding-top: 47px;
     padding-bottom: 39px;
     padding-left: 87px;
@@ -107,8 +106,13 @@
   }
 
   @media screen and(min-width:1280px) {
-    width: 800px;
-    height: 60px;
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: 90%;
+    width: 750px;
+    height: 52px;
+   
   }
 }
 
@@ -124,7 +128,6 @@
   padding-left: 23px;
   padding-right: 23px;
   z-index: 1;
-
   @media screen and(min-width:480px) {
     width: 370px;
     bottom: 10px;
@@ -143,14 +146,9 @@
   }
 
   @media screen and(min-width:1280px) {
-    width: 750px;
-    height: 52px;
-
-    font-size: 16px;
-    line-height: 1.86;
-    text-align: center;
-
-    letter-spacing: 0.04em;
+    width: 680px;
+    top:0%;
+    left: 15%;
   }
 }
 
@@ -190,7 +188,6 @@
   font-weight: 500;
   font-size: 14px;
   line-height: 1.86;
-
   @media screen and(min-width:768px) {
     font-size: 16px;
   }
@@ -221,10 +218,11 @@
   }
   @media screen and(max-width:480px) {
     display: inline-flex;
-    margin-left: 80%;
-    margin-top: 5%;
-    transform: translate(-50%, -5%);
+    margin-left: 48%;
+    margin-top: 5%; 
+    transform: translate(-48%, -5%);
     align-items: center;
+    position: fixed;
   }
   @media screen and(min-width:768px) {
     display: inline-flex;
@@ -236,9 +234,8 @@
 
   @media screen and(min-width:1280px) {
     display: inline-flex;
-    margin-left: 33%;
-    margin-top: 5%;
-    transform: translate(-33%, -5%);
+    margin-left: 32%;
+    transform: translate(-33%, 0);
     align-items: center;
   }
 }
@@ -261,15 +258,4 @@
   background-position: center;
   background-repeat: no-repeat;
 
-  // margin-bottom: 0px;
-  // @media screen and(min-width:480px) {
-  
-  // }
-  // @media screen and(min-width:768px) {
-  //   margin-bottom: 18px;
-  // }
-
-  // @media screen and(min-width:1280px) {
-  //   font-size: 20px;
-  // }
 }
