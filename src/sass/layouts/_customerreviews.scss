@@ -22,8 +22,8 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
-
-  width: 700px;
+  margin: 0 auto;
+  max-width: 700px;
   height: 427px;
   transition: transform 2s linear;
 }
@@ -204,8 +204,8 @@
 .customer_swipe_container {
 
   display: inline-flex;
-  margin-left: 80%;
-  margin-top: 20%;
+  margin: 0 auto;
+  max-width: 75px;
   transform: translate(-50%, -20%);
   align-items: center;
   &_btn {
@@ -222,11 +222,9 @@
   }
   @media screen and(max-width:480px) {
     display: inline-flex;
-    margin-left: 48%;
-    margin-top: 5%; 
     transform: translate(-48%, -5%);
     align-items: center;
-    position: fixed;
+    margin: 0 auto;
   }
   @media screen and(min-width:768px) {
     display: inline-flex;
