@@ -21,10 +21,15 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
   }
 }
 
-  
-    .hero__button{
-      color: $mainTextColor;
-      background-color: $primaryColor;
+  .hero__link {
+    text-decoration: none;
+    color: $primaryColor;
+    font-weight: 400;
+  }
+
+
+    .hero__button {
+      background-color: $mainTextColor;
       position: absolute;
       z-index: 4;
      
@@ -41,11 +46,14 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     }
 
 
-
-
-
-    .hero__button2{
+    .hero__link2 {
       color: $mainTextColor;
+      text-decoration: none;
+      font-weight: 400;
+    }
+
+
+    .hero__button2 {
       left: 70px;
       position: absolute;
       z-index: 4;
@@ -68,15 +76,12 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
 
 .header_menu{
-  fill:$mainTextColor;
   position: absolute;
   z-index: 2;
   top: 23px;
   right: 23px;
   cursor: pointer;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
     .header__logo {
       
@@ -165,13 +170,11 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
 
     .hero__button{
-      color: $mainTextColor;
       // top: 328px;
       // left: 20px;
       // margin-top: 40%;
       position: absolute;
       z-index: 4;
-      background-color: $primaryColor;
       
       border-radius: 20px;
       align-items: center;
@@ -184,12 +187,11 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
     }
 
-    .hero__button2{
-      color: $mainTextColor;
+    .hero__button2 {
       left: 70px;
       position: absolute;
       z-index: 4;
-      border-radius: 20;
+      border-radius: 20px;
       align-items: center;
       text-align: center;
       // background-color: $primaryColor;
@@ -503,13 +505,11 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
       // margin-left: 46px;
     }
     .hero__button{
-      color: $mainTextColor;
       font-weight: 400;
       position: absolute;
       z-index: 4;
       min-width: 102px;
       min-height: 40px;
-      background-color: $primaryColor;
       border-radius: 20px;
       align-items: center;
       text-align: center;
@@ -521,8 +521,7 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
 
     }
 
-    .hero__button2{
-      color: $mainTextColor;
+    .hero__button2 {
       font-weight: 400;
       left: 110px;
       position: absolute;
@@ -867,12 +866,9 @@ screen and (min-resolution: 2dppx) and (min-width: 320px) and (max-width: 767px)
     z-index: 3;
   }
   
-    .hero__button:hover,
     .hero__button2:hover,
-    .hero__button:focus,
     .hero__button2:focus {
-      background-color: $mainTextColor;
-      color: $primaryColor;
+      background-color: #ECEBEB;
     }
   
   
