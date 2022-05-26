@@ -1,5 +1,6 @@
 
 .footer {
+    padding-top: 60px;
     background-color: $backgroundColor;
     text-decoration: none;
     
@@ -17,7 +18,7 @@
             font-weight: 400;
             text-transform: uppercase;
             line-height: 1.145;
-            padding: 0px 20px;
+            padding: 0px;
         }
             
         &_01 {
@@ -43,7 +44,10 @@
             justify-content: right;
             font-size: 12px;
             line-height: 1.86;
-            padding: 46px 20px 43px 20px;
+            padding-right: 0px;
+            padding-left: 0px;
+            padding-top: 46px;
+            padding-bottom: 43px;
             color: $secondaryColor;
         }
 
@@ -72,7 +76,7 @@
         text-align: center;
         display: flex;
         justify-content: end;
-        padding: 0px 20px;
+        padding: 0px;
 
         :not(:last-child) {
             margin-right: 28px;
@@ -98,6 +102,7 @@
 
 @media screen and (min-width: 768px) {
     .footer {
+        padding-top: 0px;
 
         &__container {
             display: flex;
@@ -169,6 +174,7 @@
 
 @media screen and (min-width: 1280px) {
     .footer {
+        padding-top: 0px;
 
         &__container {
             display: flex;
